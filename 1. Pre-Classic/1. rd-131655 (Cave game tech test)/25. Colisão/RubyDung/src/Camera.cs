@@ -1,0 +1,248 @@
+using OpenTK.Mathematics;
+using RubyDung.phys;
+
+namespace RubyDung;
+
+public class Camera
+{
+    private Level level;
+    private AABB cameraBox;
+
+    private Vector3 Position = new Vector3(0.0f, 0.0f, 3.0f);
+    private Vector3 Front    = new Vector3(0.0f, 0.0f, -1.0f);
+    private Vector3 Up       = new Vector3(0.0f, 1.0f, 0.0f);
+
+    private float MovementSpeed;
+    
+    private float walking      = 4.317f;
+    private float sprinting    = 5.612f;
+    private float sneaking     = 1.295f;
+    private float flying       = 10.79f;
+    private float sprintFlying = 21.58f;
+
+    private float falling      = 77.71f;
+    private float jumping      = 1.2522f;
+
+    private bool hasFly = true;
+    private bool hasCollision = true;
+
+    private bool fistMouse = true;
+    private Vector2 last;
+
+    private float pitch;        // rotX // inclinação
+    private float yaw = -90.0f; // rotY // guinada
+    // private float roll;         // rotZ // rolamento
+
+    private float playerWidht  = 0.6f;
+    private float playerHeight = 1.8f;
+    private float eyeHeight    = 1.62f;
+
+    public Camera(Level level)
+    {
+        this.level = level;
+
+        ResetPos();
+
+        if (!hasFly)
+        {
+            MovementSpeed = walking;
+        }
+        else
+        {
+            MovementSpeed = flying;
+        }
+    }
+
+    private void ResetPos()
+    {
+        Random random = new Random();
+
+        float x = (float)(random.NextDouble() * level.width);
+        float y = (float)(level.height + 10);
+        float z = (float)(random.NextDouble() * level.depth);
+
+        SetPos(x, y, z);
+    }
+    
+    private void SetPos(float x, float y, float z)
+    {
+        Position = new Vector3(x, y, z);
+    }
+    
+    public void Update()
+    {
+        ProcessKeyboard();
+        ProcessMouseMovement();
+        // ProcessMouseScroll();
+
+        if (Input.GetKey(KeyCode.R))
+        {
+            ResetPos();
+        }
+
+        if (hasCollision)
+        {
+            CheckCollisions();
+        }        
+    }
+
+    private void ProcessKeyboard()
+    {
+        Movement();
+        Sprinting();
+    }
+    
+    private void Movement()
+    {
+        float speed = MovementSpeed * Time.deltaTime;
+
+        float x = 0.0f;
+        float y = 0.0f;
+        float z = 0.0f;
+
+        if (Input.GetKey(KeyCode.W))
+        {
+            z++;
+        }
+        if (Input.GetKey(KeyCode.S))
+        {
+            z--;
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            x++;
+        }
+        if (Input.GetKey(KeyCode.A))
+        {
+            x--;
+        }
+        if (!hasFly)
+        {
+            if (Input.GetKey(KeyCode.Space))
+            {
+
+            }
+        }
+        else
+        {
+            if (Input.GetKey(KeyCode.Space))
+            {
+                y++;
+            }
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                y--;
+            }
+        }
+
+        Position += x * speed * Vector3.Normalize(Vector3.Cross(Front, Up));
+        Position += y * speed * Up;
+        Position += z * speed * Vector3.Normalize(new Vector3(Front.X, 0.0f, Front.Z));
+    }
+
+    private void Sprinting()
+    {
+        if (Input.GetKeyDouble(KeyCode.W))
+        {
+            if (!hasFly)
+            {
+                MovementSpeed = sprinting;
+            }
+            else
+            {
+                MovementSpeed = sprintFlying;
+            }
+        }
+        if (Input.GetKey(KeyCode.W))
+        {
+            if (Input.GetKey(KeyCode.LeftControl))
+            {
+                if (!hasFly)
+                {
+                    MovementSpeed = sprinting;
+                }
+                else
+                {
+                    MovementSpeed = sprintFlying;
+                }
+            }
+        }
+        if (Input.GetKeyUp(KeyCode.W))
+        {
+            if (!hasFly)
+            {
+                MovementSpeed = walking;
+            }
+            else
+            {
+                MovementSpeed = flying;
+            }
+        }
+
+        // Debug.Log(speed);
+    }
+
+    private void ProcessMouseMovement()
+    {
+        if (fistMouse)
+        {
+            last.X = Input.mousePosition.X;
+            last.Y = Input.mousePosition.Y;
+
+            fistMouse = false;
+        }
+
+        float xoffset = Input.mousePosition.X - last.X;
+        float yoffset = last.Y - Input.mousePosition.Y;
+        last.X = Input.mousePosition.X;
+        last.Y = Input.mousePosition.Y;
+
+        const float sensitivity = 0.1f;
+        xoffset *= sensitivity;
+        yoffset *= sensitivity;
+
+        yaw += xoffset;
+        pitch += yoffset;
+
+        Math.Clamp(pitch, -89.0f, 89.0f);
+
+        Vector3 direction;
+        direction.X = (float)(Math.Cos(MathHelper.DegreesToRadians(pitch)) * Math.Cos(MathHelper.DegreesToRadians(yaw)));
+        direction.Y = (float)(Math.Sin(MathHelper.DegreesToRadians(pitch)));
+        direction.Z = (float)(Math.Cos(MathHelper.DegreesToRadians(pitch)) * Math.Sin(MathHelper.DegreesToRadians(yaw)));
+
+        Front = Vector3.Normalize(direction);
+    }
+    
+    // private void ProcessMouseScroll()
+    // {
+        
+    // }
+    
+    private void CheckCollisions()
+    {
+        
+    }
+
+    private void UpdateCameraBox()
+    {
+        float x0 = Position.X - (playerWidht  / 2.0f);
+        float y0 = Position.Y - (playerHeight / 2.0f);
+        float z0 = Position.Z - (playerWidht  / 2.0f);
+
+        float x1 = Position.X + (playerWidht  / 2.0f);
+        float y1 = Position.Y + (playerHeight / 2.0f);
+        float z1 = Position.Z + (playerWidht  / 2.0f);
+
+        cameraBox = new AABB(x0, y0, z0, x1, y1, z1);
+    }
+
+    public Matrix4 LookAt()
+    {
+        Vector3 eye = Position;
+        Vector3 target = Position + Front;
+        Vector3 up = Up;
+
+        return Matrix4.LookAt(eye, target, up);
+    }
+}

@@ -1,0 +1,14 @@
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\1. Olá, Mundo!\RubyDung\bin\Debug\net9.0\RubyDung.exe
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\1. Olá, Mundo!\RubyDung\bin\Debug\net9.0\RubyDung.deps.json
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\1. Olá, Mundo!\RubyDung\bin\Debug\net9.0\RubyDung.runtimeconfig.json
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\1. Olá, Mundo!\RubyDung\bin\Debug\net9.0\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\1. Olá, Mundo!\RubyDung\bin\Debug\net9.0\RubyDung.pdb
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\1. Olá, Mundo!\RubyDung\obj\Debug\net9.0\RubyDung.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\1. Olá, Mundo!\RubyDung\obj\Debug\net9.0\RubyDung.AssemblyInfoInputs.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\1. Olá, Mundo!\RubyDung\obj\Debug\net9.0\RubyDung.AssemblyInfo.cs
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\1. Olá, Mundo!\RubyDung\obj\Debug\net9.0\RubyDung.csproj.CoreCompileInputs.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\1. Olá, Mundo!\RubyDung\obj\Debug\net9.0\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\1. Olá, Mundo!\RubyDung\obj\Debug\net9.0\refint\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\1. Olá, Mundo!\RubyDung\obj\Debug\net9.0\RubyDung.pdb
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\1. Olá, Mundo!\RubyDung\obj\Debug\net9.0\RubyDung.genruntimeconfig.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\1. Olá, Mundo!\RubyDung\obj\Debug\net9.0\ref\RubyDung.dll
