@@ -452,11 +452,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documentos\\CSharp\\Minecraft\\1. Pre-Classic\\1. rd-131655 (Cave game tech test)\\25. Colisão\\RubyDung\\RubyDung.csproj",
+      "projectUniqueName": "D:\\Documentos\\Github\\Minecraft_CSharp\\1. Pre-Classic\\1. rd-131655 (Cave game tech test)\\25. Colisão\\RubyDung\\RubyDung.csproj",
       "projectName": "RubyDung",
-      "projectPath": "D:\\Documentos\\CSharp\\Minecraft\\1. Pre-Classic\\1. rd-131655 (Cave game tech test)\\25. Colisão\\RubyDung\\RubyDung.csproj",
+      "projectPath": "D:\\Documentos\\Github\\Minecraft_CSharp\\1. Pre-Classic\\1. rd-131655 (Cave game tech test)\\25. Colisão\\RubyDung\\RubyDung.csproj",
       "packagesPath": "C:\\Users\\Morgana Stradivarius\\.nuget\\packages\\",
-      "outputPath": "D:\\Documentos\\CSharp\\Minecraft\\1. Pre-Classic\\1. rd-131655 (Cave game tech test)\\25. Colisão\\RubyDung\\obj\\",
+      "outputPath": "D:\\Documentos\\Github\\Minecraft_CSharp\\1. Pre-Classic\\1. rd-131655 (Cave game tech test)\\25. Colisão\\RubyDung\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

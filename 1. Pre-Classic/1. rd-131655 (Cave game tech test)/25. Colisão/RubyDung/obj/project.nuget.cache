@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N98hOutH2Bc=",
+  "dgSpecHash": "y8xcFHPjT8Q=",
   "success": true,
-  "projectFilePath": "D:\\Documentos\\CSharp\\Minecraft\\1. Pre-Classic\\1. rd-131655 (Cave game tech test)\\25. Colisão\\RubyDung\\RubyDung.csproj",
+  "projectFilePath": "D:\\Documentos\\Github\\Minecraft_CSharp\\1. Pre-Classic\\1. rd-131655 (Cave game tech test)\\25. Colisão\\RubyDung\\RubyDung.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Morgana Stradivarius\\.nuget\\packages\\opentk\\4.9.4\\opentk.4.9.4.nupkg.sha512",
     "C:\\Users\\Morgana Stradivarius\\.nuget\\packages\\opentk.audio.openal\\4.9.4\\opentk.audio.openal.4.9.4.nupkg.sha512",

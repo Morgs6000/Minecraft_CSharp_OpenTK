@@ -84,24 +84,36 @@ public class Mesh
         }
     }
 
-    public void Draw(Shader shader)
+    public void Draw(Shader shader, ShadedMode shadedMode)
     {
         shader.SetBool("hasColor", hasColor);
         shader.SetBool("hasTexture", hasTexture);
 
         GL.BindVertexArray(VAO);
 
-        GL.PolygonMode(TriangleFace.FrontAndBack, PolygonMode.Fill);
-        
-        GL.DrawElements(PrimitiveType.Triangles, indiceBuffer.Count, DrawElementsType.UnsignedInt, 0);
+        if (shadedMode == ShadedMode.Shaded || shadedMode == ShadedMode.ShadedWireframe)
+        {
+            shader.SetBool("hasWireframe", false);
+            DrawFill();
+        }
+        if (shadedMode == ShadedMode.Wireframe || shadedMode == ShadedMode.ShadedWireframe)
+        {
+            shader.SetBool("hasWireframe", true);
+            DrawWireframe();
+        }  
 
         GL.BindVertexArray(0);
     }
-
-    public void DrawWireframe()
+    
+    private void DrawFill()
     {
-        GL.BindVertexArray(VAO);
+        GL.PolygonMode(TriangleFace.FrontAndBack, PolygonMode.Fill);
 
+        GL.DrawElements(PrimitiveType.Triangles, indiceBuffer.Count, DrawElementsType.UnsignedInt, 0);
+    }
+
+    private void DrawWireframe()
+    {
         // Configura o offset para o wireframe
         GL.Enable(EnableCap.PolygonOffsetLine);
         GL.PolygonOffset(-1.0f, -1.0f);  // Valores negativos para "puxar" o wireframe para frente
@@ -113,8 +125,6 @@ public class Mesh
         
         // Desativa o offset após desenhar
         GL.Disable(EnableCap.PolygonOffsetLine);
-
-        GL.BindVertexArray(0);
     }
 
     public void VertexUV(float x, float y, float z, float u, float v)

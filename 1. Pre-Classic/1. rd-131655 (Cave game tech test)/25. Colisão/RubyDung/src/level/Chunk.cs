@@ -60,15 +60,6 @@ public class Chunk
 
     public void Draw(Shader shader, ShadedMode shadedMode)
     {
-        if (shadedMode == ShadedMode.Shaded || shadedMode == ShadedMode.ShadedWireframe)
-        {
-            shader.SetBool("hasWireframe", false);
-            mesh.Draw(shader);
-        }
-        if (shadedMode == ShadedMode.Wireframe || shadedMode == ShadedMode.ShadedWireframe)
-        {
-            shader.SetBool("hasWireframe", true);
-            mesh.DrawWireframe();
-        }  
+        mesh.Draw(shader, shadedMode);
     }
 }

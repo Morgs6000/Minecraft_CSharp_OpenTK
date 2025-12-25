@@ -22,17 +22,17 @@ public class AABB
         this.z1 = z1;
     }
 
-    public float ClipXCollide(AABB other, float x)
+    public float ClipXCollide(AABB other)
     {
         
     }
 
-    public float ClipYCollide(AABB other, float y)
+    public float ClipYCollide(AABB other)
     {
         
     }
 
-    public float ClipZCollide(AABB other, float z)
+    public float ClipZCollide(AABB other)
     {
         
     }
