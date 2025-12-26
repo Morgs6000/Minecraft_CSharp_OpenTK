@@ -18,7 +18,7 @@ public class Camera
     
     private float walking      = 4.317f;
     private float sprinting    = 5.612f;
-    // private float sneaking     = 1.295f;
+    private float sneaking     = 1.295f;
     private float flying       = 10.79f;
     private float sprintFlying = 21.58f;
 
@@ -32,16 +32,30 @@ public class Camera
     private float yaw = -90.0f; // rotY // guinada
     // private float roll;         // rotZ // rolamento
 
-    private float playerWidht  = 0.6f;
+    private float playerWidht = 0.6f;
+    
     private float playerHeight = 1.8f;
     private float eyeHeight    = 1.62f;
+    
+    // Valores quando agachado
+    // private float SNEAKING_PLAYER_HEIGHT = 1.5f;
+    // private float SNEAKING_EYE_HEIGHT    = 1.32f;
+    
+    // Variável para armazenar a altura anterior (para ajuste suave)
+    // private float previousPlayerHeight;
 
     private bool hasFly;
     private bool hasCollision;
     private bool hasGravity;
+    // private bool hasSneaking;
 
     private Vector3 velocity;
     private bool onGround;
+
+    // Adicione essas variáveis para controle do delay
+    private float initializationTimer = 0.0f;
+    private const float INITIALIZATION_DELAY = 1.0f; // 0.5 segundos de delay
+    private bool isInitialized = false;
 
     public Camera(Level level)
     {
@@ -54,10 +68,29 @@ public class Camera
         hasGravity = true;
 
         MovementSpeed = hasFly ? flying : walking;
+
+        // previousPlayerHeight = playerHeight;
     }
 
     public void Update(bool hasPause)
     {
+        // Delay de inicialização antes de processar qualquer coisa
+        if (!isInitialized)
+        {
+            initializationTimer += Time.deltaTime;
+            
+            if (initializationTimer >= INITIALIZATION_DELAY)
+            {
+                isInitialized = true;
+                // Não chama ResetPos() novamente para não alterar sua lógica
+            }
+            else
+            {
+                // Durante o delay, não processa nenhum input ou física
+                return;
+            }
+        }
+
         if (hasPause)
         {
             fistMouse = true;
@@ -97,8 +130,19 @@ public class Camera
     private void ProcessKeyboard()
     {
         ProcessMovement();
-        ProcessJump();
         ProcessSprinting();
+
+        if (hasFly)
+        {
+            ProcessFly();
+        }
+        else
+        {
+            ProcessJump();            
+            ProcessSneaking();
+        }
+
+        // Debug.Log(MovementSpeed);
 
         if (Input.GetKey(KeyCode.R))
         {
@@ -140,38 +184,19 @@ public class Camera
         Position += z * speed * Vector3.Normalize(new Vector3(Front.X, 0.0f, Front.Z));
     }
 
-    private void ProcessJump()
+    private void ProcessFly()
     {
         float speed = MovementSpeed * Time.deltaTime;
 
         float y = 0.0f;
 
-        if (!hasFly)
+        if (Input.GetKey(KeyCode.Space))
         {
-            if (Input.GetKey(KeyCode.Space) && onGround)
-            {
-                onGround = false;
-
-                velocity.Y = MathF.Sqrt(jumping * 2.0f * falling);
-            }
+            y++;
         }
-        else
+        if (Input.GetKey(KeyCode.LeftShift))
         {
-            if (Input.GetKey(KeyCode.Space))
-            {
-                y++;
-            }
-            if (Input.GetKey(KeyCode.LeftShift))
-            {
-                y--;
-            }
-        }
-
-        if (Input.GetKeyDouble(KeyCode.Space))
-        {
-            Debug.Log($"hasFly: {hasFly}");
-
-            hasFly = !hasFly;
+            y--;
         }
 
         Position += y * speed * Up;
@@ -232,7 +257,7 @@ public class Camera
 
     private void ProcessMouseScroll()
     {
-
+        // Implementação do scroll do mouse (se necessário)
     }
 
     private void ProcessCollision()
@@ -299,6 +324,39 @@ public class Camera
 
         velocity.Y -= falling * Time.deltaTime;
         Position += velocity * Time.deltaTime;
+    }
+
+    private void ProcessJump()
+    {
+        if (Input.GetKey(KeyCode.Space) && onGround)
+        {
+            onGround = false;
+
+            velocity.Y = MathF.Sqrt(jumping * 2.0f * falling);
+        }        
+    }
+
+    private void ProcessSneaking()
+    {
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            // hasSneaking = true;
+
+            MovementSpeed = sneaking;
+
+            // previousPlayerHeight = playerHeight;
+            // playerHeight = SNEAKING_PLAYER_HEIGHT;
+            // eyeHeight = SNEAKING_EYE_HEIGHT;
+        }
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            // hasSneaking = false;
+
+            MovementSpeed = walking;
+
+            // playerHeight = 1.8f;
+            // eyeHeight = 1.62f;
+        }
     }
 
     public Matrix4 LookAt()
