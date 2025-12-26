@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uVL6mUMjePk=",
+  "dgSpecHash": "I8OWOSr7h60=",
   "success": true,
-  "projectFilePath": "D:\\Documentos\\CSharp\\Minecraft\\1.pre-classic\\1\\15. Icone de Janela\\RubyDung\\RubyDung.csproj",
+  "projectFilePath": "D:\\Documentos\\Github\\Minecraft_CSharp_OpenTK\\1. Pre-Classic\\01\\15. Icone de Janela\\RubyDung\\RubyDung.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Morgana Stradivarius\\.nuget\\packages\\opentk\\4.9.4\\opentk.4.9.4.nupkg.sha512",
     "C:\\Users\\Morgana Stradivarius\\.nuget\\packages\\opentk.audio.openal\\4.9.4\\opentk.audio.openal.4.9.4.nupkg.sha512",

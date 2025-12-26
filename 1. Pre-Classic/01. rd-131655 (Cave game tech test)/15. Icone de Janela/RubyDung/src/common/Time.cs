@@ -1,5 +1,7 @@
 using OpenTK.Windowing.GraphicsLibraryFramework;
 
+namespace RubyDung.Common;
+
 /// <summary>
 /// Fornece uma interface para obter informações de tempo.
 /// </summary>
@@ -18,7 +20,7 @@ public class Time
     public static void Update()
     {
         float currentFrame = (float)GLFW.GetTime();
-        
+
         deltaTime = currentFrame - lastFrame;
         lastFrame = currentFrame;
     }

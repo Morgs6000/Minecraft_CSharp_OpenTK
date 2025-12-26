@@ -1,7 +1,7 @@
 using OpenTK.Graphics.OpenGL4;
 using OpenTK.Windowing.Common;
 using OpenTK.Windowing.Desktop;
-using OpenTK.Windowing.GraphicsLibraryFramework;
+using RubyDung.Common;
 
 namespace RubyDung;
 
@@ -13,12 +13,9 @@ public class Window : GameWindow
     {
         Screen.Init(this);
 
-        string shaderPath = "src/shaders/shader.glsl";
-        shader = new Shader(shaderPath);
-
-        // string vertexPath = "src/shaders/shader_vertex.glsl";
-        // string fragmentPath = "src/shaders/shader_fragment.glsl";
-        // shader = new Shader(vertexPath, fragmentPath);
+        string vertexPath = "src/shaders/vertex.glsl";
+        string fragmentPath = "src/shaders/fragment.glsl";
+        shader = new Shader(vertexPath, fragmentPath);
     }
 
     protected override void OnLoad()

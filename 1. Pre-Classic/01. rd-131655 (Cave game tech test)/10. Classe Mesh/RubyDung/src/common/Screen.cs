@@ -1,5 +1,6 @@
-using OpenTK.Mathematics;
 using OpenTK.Windowing.Desktop;
+
+namespace RubyDung.Common;
 
 /// <summary>
 /// Fornece acesso às informações exibidas.
@@ -17,10 +18,6 @@ public class Screen
         {
             return _gameWindow.ClientSize.X;
         }
-        private set
-        {
-            
-        }
     }
 
     /// <summary>
@@ -32,12 +29,12 @@ public class Screen
         {
             return _gameWindow.ClientSize.Y;
         }
-        private set
-        {
-            
-        }
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="gameWindow"></param>
     public static void Init(GameWindow gameWindow)
     {
         _gameWindow = gameWindow;

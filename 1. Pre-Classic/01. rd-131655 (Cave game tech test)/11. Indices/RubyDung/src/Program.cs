@@ -1,5 +1,6 @@
 using OpenTK.Mathematics;
 using OpenTK.Windowing.Desktop;
+using RubyDung.Common;
 
 namespace RubyDung;
 

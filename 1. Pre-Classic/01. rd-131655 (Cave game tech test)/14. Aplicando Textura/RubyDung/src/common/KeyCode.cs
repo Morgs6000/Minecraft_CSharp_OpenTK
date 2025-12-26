@@ -1,5 +1,7 @@
 using OpenTK.Windowing.GraphicsLibraryFramework;
 
+namespace RubyDung.Common;
+
 /// <summary>
 /// O código a ser usado para identificar a entrada. Esses códigos correspondem diretamente a uma tecla física no teclado ou a teclas específicas do idioma.
 /// </summary>

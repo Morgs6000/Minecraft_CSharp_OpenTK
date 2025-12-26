@@ -1,14 +1,16 @@
 using OpenTK.Mathematics;
 
+namespace RubyDung.Common;
+
 public class Color
 {
     // Color.Rgba(0.2f, 0.3f, 0.3f)
     // Color.Rgba(0.2f, 0.3f, 0.3f, 1.0f)
     public static Color4 Rgba(float red, float green, float blue, float alpha = 1.0f)
     {
-        float r = Math.Clamp(red,   0.0f, 1.0f);
+        float r = Math.Clamp(red, 0.0f, 1.0f);
         float g = Math.Clamp(green, 0.0f, 1.0f);
-        float b = Math.Clamp(blue,  0.0f, 1.0f);
+        float b = Math.Clamp(blue, 0.0f, 1.0f);
         float a = Math.Clamp(alpha, 0.0f, 1.0f);
 
         return new Color4(r, g, b, a);
@@ -18,9 +20,9 @@ public class Color
     // Color.Rgba(51, 76, 76, 255)
     public static Color4 Rgba(int red, int green, int blue, int alpha = 255)
     {
-        float r = Math.Clamp(red,   0, 255) / 255.0f;
+        float r = Math.Clamp(red, 0, 255) / 255.0f;
         float g = Math.Clamp(green, 0, 255) / 255.0f;
-        float b = Math.Clamp(blue,  0, 255) / 255.0f;
+        float b = Math.Clamp(blue, 0, 255) / 255.0f;
         float a = Math.Clamp(alpha, 0, 255) / 255.0f;
 
         return new Color4(r, g, b, a);
@@ -96,10 +98,10 @@ public class Color
     // Color.Hsv(180.0f, 0.32f, 0.29f, 1.0f)
     public static Color4 Hsv(float hue, float saturation, float value, float alpha = 1.0f)
     {
-        float h = Math.Clamp(hue,        0.0f, 360.0f); // 0° a 360°
+        float h = Math.Clamp(hue, 0.0f, 360.0f); // 0° a 360°
         float s = Math.Clamp(saturation, 0.0f, 1.0f);   // 0.0 a 1.0
-        float v = Math.Clamp(value,      0.0f, 1.0f);   // 0.0 a 1.0
-        float a = Math.Clamp(alpha,      0.0f, 1.0f);
+        float v = Math.Clamp(value, 0.0f, 1.0f);   // 0.0 a 1.0
+        float a = Math.Clamp(alpha, 0.0f, 1.0f);
 
         return HsvToRgba(h, s, v, a);
     }
@@ -108,21 +110,21 @@ public class Color
     // Color.Hsv(180, 32, 29, 255)
     public static Color4 Hsv(int hue, int saturation, int value, int alpha = 255)
     {
-        float h = Math.Clamp(hue,        0, 360);          // 0° a 360°
+        float h = Math.Clamp(hue, 0, 360);          // 0° a 360°
         float s = Math.Clamp(saturation, 0, 100) / 100.0f; // 0 a 100
-        float v = Math.Clamp(value,      0, 100) / 100.0f; // 0 a 100
-        float a = Math.Clamp(alpha,      0, 255) / 255.0f;
+        float v = Math.Clamp(value, 0, 100) / 100.0f; // 0 a 100
+        float a = Math.Clamp(alpha, 0, 255) / 255.0f;
 
         return HsvToRgba(h, s, v, a);
     }
-    
+
     private static Color4 HsvToRgba(float hue, float saturation, float value, float alpha = 1.0f)
     {
         // Garantir que os valores estão dentro dos limites        
-        float h = Math.Clamp(hue,        0.0f, 360.0f); // 0° a 360°
+        float h = Math.Clamp(hue, 0.0f, 360.0f); // 0° a 360°
         float s = Math.Clamp(saturation, 0.0f, 1.0f);   // 0.0 a 1.0
-        float v = Math.Clamp(value,      0.0f, 1.0f);   // 0.0 a 1.0
-        float a = Math.Clamp(alpha,      0.0f, 1.0f);
+        float v = Math.Clamp(value, 0.0f, 1.0f);   // 0.0 a 1.0
+        float a = Math.Clamp(alpha, 0.0f, 1.0f);
 
         // Se saturação é 0, é uma cor acromática (escala de cinza)
         if (s <= 0.0f)
@@ -132,14 +134,14 @@ public class Color
 
         // Normalizar hue para 0-6 (seis setores da roda de cores)
         float normalized = h / 60.0f;
-        int sector       = (int)Math.Floor(normalized);
-        float fraction   = normalized - sector;
-        
+        int sector = (int)Math.Floor(normalized);
+        float fraction = normalized - sector;
+
         // Valores intermediários
         float p = v * (1.0f - s);
         float q = v * (1.0f - s * fraction);
         float t = v * (1.0f - s * (1.0f - fraction));
-        
+
         switch (sector)
         {
             case 0: // Vermelho → Amarelo

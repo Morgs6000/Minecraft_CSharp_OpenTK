@@ -1,7 +1,8 @@
 using OpenTK.Graphics.OpenGL4;
 using OpenTK.Windowing.Common;
 using OpenTK.Windowing.Desktop;
-using OpenTK.Windowing.GraphicsLibraryFramework;
+using RubyDung.Common;
+using RubyDung.Level;
 
 namespace RubyDung;
 
@@ -9,14 +10,16 @@ public class Window : GameWindow
 {
     private Shader shader;
     private Mesh mesh;
+
     private ShadedMode shadedMode;
-    
+
     public Window(GameWindowSettings gameWindowSettings, NativeWindowSettings nativeWindowSettings) : base(gameWindowSettings, nativeWindowSettings)
     {
         Screen.Init(this);
 
-        string shaderPath = "src/shaders/shader.glsl";
-        shader = new Shader(shaderPath);
+        string vertexPath = "src/shaders/vertex.glsl";
+        string fragmentPath = "src/shaders/fragment.glsl";
+        shader = new Shader(vertexPath, fragmentPath);
 
         mesh = new Mesh();
 
@@ -48,23 +51,25 @@ public class Window : GameWindow
         {
             Close();
         }
-
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKey(KeyCode.F3))
         {
-            switch (shadedMode)
+            if (Input.GetKeyDown(KeyCode.W))
             {
-                case ShadedMode.Shaded:
-                    shadedMode = ShadedMode.ShadedWireframe;
-                    break;
-                case ShadedMode.ShadedWireframe:
-                    shadedMode = ShadedMode.Wireframe;
-                    break;
-                case ShadedMode.Wireframe:
-                    shadedMode = ShadedMode.Shaded;
-                    break;
-            }
+                switch (shadedMode)
+                {
+                    case ShadedMode.Shaded:
+                        shadedMode = ShadedMode.ShadedWireframe;
+                        break;
+                    case ShadedMode.ShadedWireframe:
+                        shadedMode = ShadedMode.Wireframe;
+                        break;
+                    case ShadedMode.Wireframe:
+                        shadedMode = ShadedMode.Shaded;
+                        break;
+                }
 
-            Debug.Log($"shadedMode: {shadedMode}");
+                Debug.Log($"shadedMode: {shadedMode}");
+            }
         }
     }
 
@@ -76,16 +81,7 @@ public class Window : GameWindow
 
         shader.Use();
         
-        if (shadedMode == ShadedMode.Shaded || shadedMode == ShadedMode.ShadedWireframe)
-        {
-            shader.SetBool("hasWireframe", false);
-            mesh.Draw();
-        }
-        if (shadedMode == ShadedMode.Wireframe || shadedMode == ShadedMode.ShadedWireframe)
-        {
-            shader.SetBool("hasWireframe", true);
-            mesh.DrawWireframe();
-        }  
+        mesh.Draw(shader, shadedMode);
 
         SwapBuffers();
     }

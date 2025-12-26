@@ -2,6 +2,8 @@ using OpenTK.Mathematics;
 using OpenTK.Windowing.Desktop;
 using OpenTK.Windowing.GraphicsLibraryFramework;
 
+namespace RubyDung.Common;
+
 public class Input
 {
     private static KeyboardState keyboardState = null!;
@@ -20,13 +22,22 @@ public class Input
     {
         get
         {
-            if (keyboardState.IsAnyKeyDown)
+            foreach (KeyCode key in Enum.GetValues(typeof(Keys)))
             {
-                return true;
+                if (key != KeyCode.None)
+                {
+                    if (GetKey(key))
+                    {
+                        return true;
+                    }
+                }
             }
-            if (mouseState.IsAnyButtonDown)
+            foreach (KeyCode button in Enum.GetValues(typeof(MouseButton)))
             {
-                return true;
+                if (GetKey(button))
+                {
+                    return true;
+                }
             }
 
             return false;
@@ -52,7 +63,7 @@ public class Input
             }
             foreach (KeyCode button in Enum.GetValues(typeof(MouseButton)))
             {
-                if (GetMouseButtonDown(button))
+                if (GetKeyDown(button))
                 {
                     return true;
                 }
@@ -81,13 +92,42 @@ public class Input
             }
             foreach (KeyCode button in Enum.GetValues(typeof(MouseButton)))
             {
-                if (GetMouseButtonUp(button))
+                if (GetKeyUp(button))
                 {
                     return true;
                 }
             }
 
             return false;
+        }
+    }
+
+    /// <summary>
+    /// Retorna a primeira tecla ou botão do mouse pressionado no moemnto. (Somente leitura)
+    /// </summary>
+    public static string pressedKey
+    {
+        get
+        {
+            foreach (KeyCode key in Enum.GetValues(typeof(Keys)))
+            {
+                if (key != KeyCode.None)
+                {
+                    if (GetKey(key) || GetKeyDown(key) || GetKeyUp(key))
+                    {
+                        return key.ToString();
+                    }
+                }
+            }
+            foreach (KeyCode button in Enum.GetValues(typeof(MouseButton)))
+            {
+                if (GetKey(button) || GetKeyDown(button) || GetKeyUp(button))
+                {
+                    return button.ToString();
+                }
+            }
+
+            return string.Empty;
         }
     }
 
@@ -114,35 +154,6 @@ public class Input
     }
 
     /// <summary>
-    /// Retorna a primeira tecla ou botão do mouse pressionado no moemnto. (Somente leitura)
-    /// </summary>
-    public static string pressedKey
-    {
-        get
-        {
-            foreach (KeyCode key in Enum.GetValues(typeof(Keys)))
-            {
-                if (key != KeyCode.None)
-                {
-                    if (GetKey(key) || GetKeyDown(key) || GetKeyUp(key))
-                    {
-                        return key.ToString();
-                    }
-                }
-            }
-            foreach (KeyCode button in Enum.GetValues(typeof(MouseButton)))
-            {
-                if (GetMouseButton(button) || GetMouseButtonDown(button) || GetMouseButtonUp(button))
-                {
-                    return button.ToString();
-                }
-            }
-
-            return string.Empty;
-        }
-    }
-
-    /// <summary>
     /// Atualiza os estados de entrada
     /// </summary>
     public static void Update(GameWindow gameWindow)
@@ -156,7 +167,16 @@ public class Input
     /// </summary>
     public static bool GetKey(KeyCode key)
     {
-        return keyboardState.IsKeyDown((Keys)key);
+        if(Enum.IsDefined(typeof(Keys), (Keys)key))
+        {
+            return keyboardState.IsKeyDown((Keys)key);
+        }
+        if(Enum.IsDefined(typeof(MouseButton), (MouseButton)key))
+        {
+            return mouseState.IsButtonDown((MouseButton)key);
+        }
+
+        return false;
     }
 
     /// <summary>
@@ -164,7 +184,16 @@ public class Input
     /// </summary>
     public static bool GetKeyDown(KeyCode key)
     {
-        return keyboardState.IsKeyPressed((Keys)key);
+        if(Enum.IsDefined(typeof(Keys), (Keys)key))
+        {
+            return keyboardState.IsKeyPressed((Keys)key);
+        }
+        if(Enum.IsDefined(typeof(MouseButton), (MouseButton)key))
+        {
+            return mouseState.IsButtonPressed((MouseButton)key);
+        }
+
+        return false;
     }
 
     /// <summary>
@@ -172,52 +201,22 @@ public class Input
     /// </summary>
     public static bool GetKeyUp(KeyCode key)
     {
-        return keyboardState.IsKeyReleased((Keys)key);
+        if(Enum.IsDefined(typeof(Keys), (Keys)key))
+        {
+            return keyboardState.IsKeyReleased((Keys)key);
+        }
+        if(Enum.IsDefined(typeof(MouseButton), (MouseButton)key))
+        {
+            return mouseState.IsButtonReleased((MouseButton)key);
+        }
+
+        return false;
     }
 
     /// <summary>
     /// Retorna verdadeiro durante o frame em que o usuário pressionar duas vezes a tecla identificada pelo parâmetro de enumeração KeyCode.
     /// </summary>
-    /// <param name="key">Tecla a ser verificada</param>
-    /// <returns>True se foi detectado double click neste frame</returns>
     public static bool GetKeyDouble(KeyCode key)
-    {
-        return CheckDoubleClick(key, GetKeyDown);
-    }
-    
-    /// <summary>
-    /// Retorna se o botão do mouse especificado está pressionado.
-    /// </summary>
-    public static bool GetMouseButton(KeyCode key)
-    {
-        return mouseState.IsButtonDown((MouseButton)key);
-    }
-    
-    /// <summary>
-    /// Retorna se o botão do mouse especificado está pressionado.
-    /// </summary>
-    public static bool GetMouseButtonDown(KeyCode key)
-    {
-        return mouseState.IsButtonPressed((MouseButton)key);
-    }
-    
-    /// <summary>
-    /// Retorna se o botão do mouse especificado está pressionado.
-    /// </summary>
-    public static bool GetMouseButtonUp(KeyCode key)
-    {
-        return mouseState.IsButtonReleased((MouseButton)key);
-    }
-
-    /// <summary>
-    /// Retorna se o botão do mouse especificado está pressionado.
-    /// </summary>
-    public static bool GetMouseButtonDouble(KeyCode key)
-    {
-        return CheckDoubleClick(key, GetMouseButtonDown);
-    }
-    
-    private static bool CheckDoubleClick(KeyCode key, Func<KeyCode, bool> getDownMethod)
     {
         // Inicializa o contador de tempo se esta tecla não existir no dicionário
         if (!lastClickTimes.ContainsKey(key))
@@ -238,7 +237,92 @@ public class Input
         }
 
         // Se a tecla foi pressionada neste frame
-        if (getDownMethod(key))
+        if (GetKeyDown(key))
+        {
+            // Se ainda esta no tempo do double clique (segundo clique)
+            if (lastClickTimes[key] > 0)
+            {
+                // Resta o timer após detectar o double click
+                lastClickTimes[key] = 0;
+
+                // Double click detectado!
+                return true;
+            }
+            else
+            {
+                // Primeiro Click - Iniciar o timer;
+                lastClickTimes[key] = DOUBLE_CLICK_TIME;
+            }
+        }
+
+        // Não foi double click
+        return false;
+    }
+    
+    /// <summary>
+    /// Retorna se o botão do mouse especificado está pressionado.
+    /// </summary>
+    public static bool GetMouseButton(int button)
+    {
+        return mouseState.IsButtonDown((MouseButton)button);
+    }
+    
+    /// <summary>
+    /// Retorna verdadeiro durante o período em que o usuário pressionou o botão do mouse especificado.
+    /// </summary>
+    public static bool GetMouseButtonDown(int button)
+    {
+        return mouseState.IsButtonPressed((MouseButton)button);
+    }
+    
+    /// <summary>
+    /// Retorna verdadeiro durante o período em que o usuário solta o botão do mouse especificado.
+    /// </summary>
+    public static bool GetMouseButtonUp(int button)
+    {
+        return mouseState.IsButtonReleased((MouseButton)button);
+    }
+
+    /// <summary>
+    /// Retorna verdadeiro durante o período em que o usuário pressionou duas vezes o botão do mouse especificado.
+    /// </summary>
+    public static bool GetMouseButtonDouble(int button)
+    {
+        KeyCode key = KeyCode.None;
+        
+        switch (button)
+        {
+            case 0:
+                key = KeyCode.Mouse0;
+                break;
+            case 1:
+                key = KeyCode.Mouse1;
+                break;
+            case 2:
+                key = KeyCode.Mouse2;
+                break;
+        }
+
+        // Inicializa o contador de tempo se esta tecla não existir no dicionário
+        if (!lastClickTimes.ContainsKey(key))
+        {
+            lastClickTimes[key] = 0;
+        }
+
+        // Decrementa o tempo para esta tecla especifica (contagem regressiva)
+        if (lastClickTimes[key] > 0)
+        {
+            lastClickTimes[key] -= Time.deltaTime;
+
+            // Garante que o tempo não fique negativo
+            if (lastClickTimes[key] < 0)
+            {
+                lastClickTimes[key] = 0;
+            }
+        }
+
+        // Se a tecla foi pressionada neste frame
+        if (GetMouseButtonDown(button))
         {
             // Se ainda esta no tempo do double clique (segundo clique)
             if (lastClickTimes[key] > 0)
