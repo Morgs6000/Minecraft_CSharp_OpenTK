@@ -1,0 +1,504 @@
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\1. Olá, Mundo!\RubyDung\bin\Debug\net9.0\RubyDung.exe
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\1. Olá, Mundo!\RubyDung\bin\Debug\net9.0\RubyDung.deps.json
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\1. Olá, Mundo!\RubyDung\bin\Debug\net9.0\RubyDung.runtimeconfig.json
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\1. Olá, Mundo!\RubyDung\bin\Debug\net9.0\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\1. Olá, Mundo!\RubyDung\bin\Debug\net9.0\RubyDung.pdb
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\1. Olá, Mundo!\RubyDung\obj\Debug\net9.0\RubyDung.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\1. Olá, Mundo!\RubyDung\obj\Debug\net9.0\RubyDung.AssemblyInfoInputs.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\1. Olá, Mundo!\RubyDung\obj\Debug\net9.0\RubyDung.AssemblyInfo.cs
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\1. Olá, Mundo!\RubyDung\obj\Debug\net9.0\RubyDung.csproj.CoreCompileInputs.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\1. Olá, Mundo!\RubyDung\obj\Debug\net9.0\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\1. Olá, Mundo!\RubyDung\obj\Debug\net9.0\refint\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\1. Olá, Mundo!\RubyDung\obj\Debug\net9.0\RubyDung.pdb
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\1. Olá, Mundo!\RubyDung\obj\Debug\net9.0\RubyDung.genruntimeconfig.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\1. Olá, Mundo!\RubyDung\obj\Debug\net9.0\ref\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\2. Olá Janela\RubyDung\bin\Debug\net9.0\RubyDung.exe
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\2. Olá Janela\RubyDung\bin\Debug\net9.0\RubyDung.deps.json
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\2. Olá Janela\RubyDung\bin\Debug\net9.0\RubyDung.runtimeconfig.json
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\2. Olá Janela\RubyDung\bin\Debug\net9.0\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\2. Olá Janela\RubyDung\bin\Debug\net9.0\RubyDung.pdb
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\2. Olá Janela\RubyDung\bin\Debug\net9.0\OpenTK.Audio.OpenAL.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\2. Olá Janela\RubyDung\bin\Debug\net9.0\OpenTK.Compute.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\2. Olá Janela\RubyDung\bin\Debug\net9.0\OpenTK.Core.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\2. Olá Janela\RubyDung\bin\Debug\net9.0\OpenTK.Graphics.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\2. Olá Janela\RubyDung\bin\Debug\net9.0\OpenTK.Input.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\2. Olá Janela\RubyDung\bin\Debug\net9.0\OpenTK.Mathematics.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\2. Olá Janela\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.Common.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\2. Olá Janela\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.Desktop.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\2. Olá Janela\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.GraphicsLibraryFramework.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\2. Olá Janela\RubyDung\bin\Debug\net9.0\runtimes\linux-x64\native\libglfw.so.3
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\2. Olá Janela\RubyDung\bin\Debug\net9.0\runtimes\osx-arm64\native\libglfw.3.dylib
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\2. Olá Janela\RubyDung\bin\Debug\net9.0\runtimes\osx-x64\native\libglfw.3.dylib
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\2. Olá Janela\RubyDung\bin\Debug\net9.0\runtimes\win-x64\native\glfw3.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\2. Olá Janela\RubyDung\bin\Debug\net9.0\runtimes\win-x86\native\glfw3.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\2. Olá Janela\RubyDung\obj\Debug\net9.0\RubyDung.csproj.AssemblyReference.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\2. Olá Janela\RubyDung\obj\Debug\net9.0\RubyDung.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\2. Olá Janela\RubyDung\obj\Debug\net9.0\RubyDung.AssemblyInfoInputs.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\2. Olá Janela\RubyDung\obj\Debug\net9.0\RubyDung.AssemblyInfo.cs
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\2. Olá Janela\RubyDung\obj\Debug\net9.0\RubyDung.csproj.CoreCompileInputs.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\2. Olá Janela\RubyDung\obj\Debug\net9.0\RubyDung.csproj.Up2Date
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\2. Olá Janela\RubyDung\obj\Debug\net9.0\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\2. Olá Janela\RubyDung\obj\Debug\net9.0\refint\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\2. Olá Janela\RubyDung\obj\Debug\net9.0\RubyDung.pdb
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\2. Olá Janela\RubyDung\obj\Debug\net9.0\RubyDung.genruntimeconfig.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\2. Olá Janela\RubyDung\obj\Debug\net9.0\ref\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\4. Clear\RubyDung\bin\Debug\net9.0\RubyDung.exe
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\4. Clear\RubyDung\bin\Debug\net9.0\RubyDung.deps.json
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\4. Clear\RubyDung\bin\Debug\net9.0\RubyDung.runtimeconfig.json
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\4. Clear\RubyDung\bin\Debug\net9.0\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\4. Clear\RubyDung\bin\Debug\net9.0\RubyDung.pdb
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\4. Clear\RubyDung\bin\Debug\net9.0\OpenTK.Audio.OpenAL.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\4. Clear\RubyDung\bin\Debug\net9.0\OpenTK.Compute.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\4. Clear\RubyDung\bin\Debug\net9.0\OpenTK.Core.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\4. Clear\RubyDung\bin\Debug\net9.0\OpenTK.Graphics.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\4. Clear\RubyDung\bin\Debug\net9.0\OpenTK.Input.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\4. Clear\RubyDung\bin\Debug\net9.0\OpenTK.Mathematics.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\4. Clear\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.Common.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\4. Clear\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.Desktop.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\4. Clear\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.GraphicsLibraryFramework.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\4. Clear\RubyDung\bin\Debug\net9.0\runtimes\linux-x64\native\libglfw.so.3
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\4. Clear\RubyDung\bin\Debug\net9.0\runtimes\osx-arm64\native\libglfw.3.dylib
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\4. Clear\RubyDung\bin\Debug\net9.0\runtimes\osx-x64\native\libglfw.3.dylib
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\4. Clear\RubyDung\bin\Debug\net9.0\runtimes\win-x64\native\glfw3.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\4. Clear\RubyDung\bin\Debug\net9.0\runtimes\win-x86\native\glfw3.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\4. Clear\RubyDung\obj\Debug\net9.0\RubyDung.csproj.AssemblyReference.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\4. Clear\RubyDung\obj\Debug\net9.0\RubyDung.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\4. Clear\RubyDung\obj\Debug\net9.0\RubyDung.AssemblyInfoInputs.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\4. Clear\RubyDung\obj\Debug\net9.0\RubyDung.AssemblyInfo.cs
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\4. Clear\RubyDung\obj\Debug\net9.0\RubyDung.csproj.CoreCompileInputs.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\4. Clear\RubyDung\obj\Debug\net9.0\RubyDung.csproj.Up2Date
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\4. Clear\RubyDung\obj\Debug\net9.0\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\4. Clear\RubyDung\obj\Debug\net9.0\refint\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\4. Clear\RubyDung\obj\Debug\net9.0\RubyDung.pdb
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\4. Clear\RubyDung\obj\Debug\net9.0\RubyDung.genruntimeconfig.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\4. Clear\RubyDung\obj\Debug\net9.0\ref\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\5. Time\RubyDung\bin\Debug\net9.0\RubyDung.exe
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\5. Time\RubyDung\bin\Debug\net9.0\RubyDung.deps.json
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\5. Time\RubyDung\bin\Debug\net9.0\RubyDung.runtimeconfig.json
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\5. Time\RubyDung\bin\Debug\net9.0\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\5. Time\RubyDung\bin\Debug\net9.0\RubyDung.pdb
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\5. Time\RubyDung\bin\Debug\net9.0\OpenTK.Audio.OpenAL.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\5. Time\RubyDung\bin\Debug\net9.0\OpenTK.Compute.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\5. Time\RubyDung\bin\Debug\net9.0\OpenTK.Core.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\5. Time\RubyDung\bin\Debug\net9.0\OpenTK.Graphics.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\5. Time\RubyDung\bin\Debug\net9.0\OpenTK.Input.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\5. Time\RubyDung\bin\Debug\net9.0\OpenTK.Mathematics.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\5. Time\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.Common.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\5. Time\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.Desktop.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\5. Time\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.GraphicsLibraryFramework.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\5. Time\RubyDung\bin\Debug\net9.0\runtimes\linux-x64\native\libglfw.so.3
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\5. Time\RubyDung\bin\Debug\net9.0\runtimes\osx-arm64\native\libglfw.3.dylib
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\5. Time\RubyDung\bin\Debug\net9.0\runtimes\osx-x64\native\libglfw.3.dylib
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\5. Time\RubyDung\bin\Debug\net9.0\runtimes\win-x64\native\glfw3.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\5. Time\RubyDung\bin\Debug\net9.0\runtimes\win-x86\native\glfw3.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\5. Time\RubyDung\obj\Debug\net9.0\RubyDung.csproj.AssemblyReference.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\5. Time\RubyDung\obj\Debug\net9.0\RubyDung.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\5. Time\RubyDung\obj\Debug\net9.0\RubyDung.AssemblyInfoInputs.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\5. Time\RubyDung\obj\Debug\net9.0\RubyDung.AssemblyInfo.cs
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\5. Time\RubyDung\obj\Debug\net9.0\RubyDung.csproj.CoreCompileInputs.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\5. Time\RubyDung\obj\Debug\net9.0\RubyDung.csproj.Up2Date
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\5. Time\RubyDung\obj\Debug\net9.0\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\5. Time\RubyDung\obj\Debug\net9.0\refint\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\5. Time\RubyDung\obj\Debug\net9.0\RubyDung.pdb
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\5. Time\RubyDung\obj\Debug\net9.0\RubyDung.genruntimeconfig.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\5. Time\RubyDung\obj\Debug\net9.0\ref\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\7. Input\RubyDung\bin\Debug\net9.0\RubyDung.exe
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\7. Input\RubyDung\bin\Debug\net9.0\RubyDung.deps.json
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\7. Input\RubyDung\bin\Debug\net9.0\RubyDung.runtimeconfig.json
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\7. Input\RubyDung\bin\Debug\net9.0\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\7. Input\RubyDung\bin\Debug\net9.0\RubyDung.pdb
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\7. Input\RubyDung\bin\Debug\net9.0\OpenTK.Audio.OpenAL.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\7. Input\RubyDung\bin\Debug\net9.0\OpenTK.Compute.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\7. Input\RubyDung\bin\Debug\net9.0\OpenTK.Core.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\7. Input\RubyDung\bin\Debug\net9.0\OpenTK.Graphics.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\7. Input\RubyDung\bin\Debug\net9.0\OpenTK.Input.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\7. Input\RubyDung\bin\Debug\net9.0\OpenTK.Mathematics.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\7. Input\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.Common.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\7. Input\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.Desktop.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\7. Input\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.GraphicsLibraryFramework.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\7. Input\RubyDung\bin\Debug\net9.0\runtimes\linux-x64\native\libglfw.so.3
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\7. Input\RubyDung\bin\Debug\net9.0\runtimes\osx-arm64\native\libglfw.3.dylib
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\7. Input\RubyDung\bin\Debug\net9.0\runtimes\osx-x64\native\libglfw.3.dylib
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\7. Input\RubyDung\bin\Debug\net9.0\runtimes\win-x64\native\glfw3.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\7. Input\RubyDung\bin\Debug\net9.0\runtimes\win-x86\native\glfw3.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\7. Input\RubyDung\obj\Debug\net9.0\RubyDung.csproj.AssemblyReference.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\7. Input\RubyDung\obj\Debug\net9.0\RubyDung.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\7. Input\RubyDung\obj\Debug\net9.0\RubyDung.AssemblyInfoInputs.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\7. Input\RubyDung\obj\Debug\net9.0\RubyDung.AssemblyInfo.cs
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\7. Input\RubyDung\obj\Debug\net9.0\RubyDung.csproj.CoreCompileInputs.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\7. Input\RubyDung\obj\Debug\net9.0\RubyDung.csproj.Up2Date
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\7. Input\RubyDung\obj\Debug\net9.0\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\7. Input\RubyDung\obj\Debug\net9.0\refint\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\7. Input\RubyDung\obj\Debug\net9.0\RubyDung.pdb
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\7. Input\RubyDung\obj\Debug\net9.0\RubyDung.genruntimeconfig.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\7. Input\RubyDung\obj\Debug\net9.0\ref\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\11. Mesh\RubyDung\bin\Debug\net9.0\RubyDung.exe
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\11. Mesh\RubyDung\bin\Debug\net9.0\RubyDung.deps.json
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\11. Mesh\RubyDung\bin\Debug\net9.0\RubyDung.runtimeconfig.json
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\11. Mesh\RubyDung\bin\Debug\net9.0\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\11. Mesh\RubyDung\bin\Debug\net9.0\RubyDung.pdb
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\11. Mesh\RubyDung\bin\Debug\net9.0\OpenTK.Audio.OpenAL.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\11. Mesh\RubyDung\bin\Debug\net9.0\OpenTK.Compute.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\11. Mesh\RubyDung\bin\Debug\net9.0\OpenTK.Core.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\11. Mesh\RubyDung\bin\Debug\net9.0\OpenTK.Graphics.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\11. Mesh\RubyDung\bin\Debug\net9.0\OpenTK.Input.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\11. Mesh\RubyDung\bin\Debug\net9.0\OpenTK.Mathematics.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\11. Mesh\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.Common.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\11. Mesh\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.Desktop.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\11. Mesh\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.GraphicsLibraryFramework.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\11. Mesh\RubyDung\bin\Debug\net9.0\runtimes\linux-x64\native\libglfw.so.3
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\11. Mesh\RubyDung\bin\Debug\net9.0\runtimes\osx-arm64\native\libglfw.3.dylib
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\11. Mesh\RubyDung\bin\Debug\net9.0\runtimes\osx-x64\native\libglfw.3.dylib
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\11. Mesh\RubyDung\bin\Debug\net9.0\runtimes\win-x64\native\glfw3.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\11. Mesh\RubyDung\bin\Debug\net9.0\runtimes\win-x86\native\glfw3.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\11. Mesh\RubyDung\obj\Debug\net9.0\RubyDung.csproj.AssemblyReference.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\11. Mesh\RubyDung\obj\Debug\net9.0\RubyDung.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\11. Mesh\RubyDung\obj\Debug\net9.0\RubyDung.AssemblyInfoInputs.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\11. Mesh\RubyDung\obj\Debug\net9.0\RubyDung.AssemblyInfo.cs
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\11. Mesh\RubyDung\obj\Debug\net9.0\RubyDung.csproj.CoreCompileInputs.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\11. Mesh\RubyDung\obj\Debug\net9.0\RubyDung.csproj.Up2Date
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\11. Mesh\RubyDung\obj\Debug\net9.0\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\11. Mesh\RubyDung\obj\Debug\net9.0\refint\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\11. Mesh\RubyDung\obj\Debug\net9.0\RubyDung.pdb
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\11. Mesh\RubyDung\obj\Debug\net9.0\RubyDung.genruntimeconfig.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\11. Mesh\RubyDung\obj\Debug\net9.0\ref\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\12. Indices\RubyDung\bin\Debug\net9.0\RubyDung.exe
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\12. Indices\RubyDung\bin\Debug\net9.0\RubyDung.deps.json
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\12. Indices\RubyDung\bin\Debug\net9.0\RubyDung.runtimeconfig.json
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\12. Indices\RubyDung\bin\Debug\net9.0\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\12. Indices\RubyDung\bin\Debug\net9.0\RubyDung.pdb
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\12. Indices\RubyDung\bin\Debug\net9.0\OpenTK.Audio.OpenAL.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\12. Indices\RubyDung\bin\Debug\net9.0\OpenTK.Compute.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\12. Indices\RubyDung\bin\Debug\net9.0\OpenTK.Core.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\12. Indices\RubyDung\bin\Debug\net9.0\OpenTK.Graphics.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\12. Indices\RubyDung\bin\Debug\net9.0\OpenTK.Input.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\12. Indices\RubyDung\bin\Debug\net9.0\OpenTK.Mathematics.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\12. Indices\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.Common.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\12. Indices\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.Desktop.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\12. Indices\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.GraphicsLibraryFramework.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\12. Indices\RubyDung\bin\Debug\net9.0\runtimes\linux-x64\native\libglfw.so.3
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\12. Indices\RubyDung\bin\Debug\net9.0\runtimes\osx-arm64\native\libglfw.3.dylib
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\12. Indices\RubyDung\bin\Debug\net9.0\runtimes\osx-x64\native\libglfw.3.dylib
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\12. Indices\RubyDung\bin\Debug\net9.0\runtimes\win-x64\native\glfw3.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\12. Indices\RubyDung\bin\Debug\net9.0\runtimes\win-x86\native\glfw3.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\12. Indices\RubyDung\obj\Debug\net9.0\RubyDung.csproj.AssemblyReference.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\12. Indices\RubyDung\obj\Debug\net9.0\RubyDung.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\12. Indices\RubyDung\obj\Debug\net9.0\RubyDung.AssemblyInfoInputs.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\12. Indices\RubyDung\obj\Debug\net9.0\RubyDung.AssemblyInfo.cs
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\12. Indices\RubyDung\obj\Debug\net9.0\RubyDung.csproj.CoreCompileInputs.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\12. Indices\RubyDung\obj\Debug\net9.0\RubyDung.csproj.Up2Date
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\12. Indices\RubyDung\obj\Debug\net9.0\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\12. Indices\RubyDung\obj\Debug\net9.0\refint\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\12. Indices\RubyDung\obj\Debug\net9.0\RubyDung.pdb
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\12. Indices\RubyDung\obj\Debug\net9.0\RubyDung.genruntimeconfig.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\12. Indices\RubyDung\obj\Debug\net9.0\ref\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Wireframe\RubyDung\bin\Debug\net9.0\RubyDung.exe
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Wireframe\RubyDung\bin\Debug\net9.0\RubyDung.deps.json
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Wireframe\RubyDung\bin\Debug\net9.0\RubyDung.runtimeconfig.json
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Wireframe\RubyDung\bin\Debug\net9.0\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Wireframe\RubyDung\bin\Debug\net9.0\RubyDung.pdb
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Wireframe\RubyDung\bin\Debug\net9.0\OpenTK.Audio.OpenAL.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Wireframe\RubyDung\bin\Debug\net9.0\OpenTK.Compute.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Wireframe\RubyDung\bin\Debug\net9.0\OpenTK.Core.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Wireframe\RubyDung\bin\Debug\net9.0\OpenTK.Graphics.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Wireframe\RubyDung\bin\Debug\net9.0\OpenTK.Input.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Wireframe\RubyDung\bin\Debug\net9.0\OpenTK.Mathematics.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Wireframe\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.Common.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Wireframe\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.Desktop.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Wireframe\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.GraphicsLibraryFramework.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Wireframe\RubyDung\bin\Debug\net9.0\runtimes\linux-x64\native\libglfw.so.3
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Wireframe\RubyDung\bin\Debug\net9.0\runtimes\osx-arm64\native\libglfw.3.dylib
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Wireframe\RubyDung\bin\Debug\net9.0\runtimes\osx-x64\native\libglfw.3.dylib
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Wireframe\RubyDung\bin\Debug\net9.0\runtimes\win-x64\native\glfw3.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Wireframe\RubyDung\bin\Debug\net9.0\runtimes\win-x86\native\glfw3.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Wireframe\RubyDung\obj\Debug\net9.0\RubyDung.csproj.AssemblyReference.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Wireframe\RubyDung\obj\Debug\net9.0\RubyDung.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Wireframe\RubyDung\obj\Debug\net9.0\RubyDung.AssemblyInfoInputs.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Wireframe\RubyDung\obj\Debug\net9.0\RubyDung.AssemblyInfo.cs
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Wireframe\RubyDung\obj\Debug\net9.0\RubyDung.csproj.CoreCompileInputs.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Wireframe\RubyDung\obj\Debug\net9.0\RubyDung.csproj.Up2Date
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Wireframe\RubyDung\obj\Debug\net9.0\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Wireframe\RubyDung\obj\Debug\net9.0\refint\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Wireframe\RubyDung\obj\Debug\net9.0\RubyDung.pdb
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Wireframe\RubyDung\obj\Debug\net9.0\RubyDung.genruntimeconfig.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Wireframe\RubyDung\obj\Debug\net9.0\ref\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Color\RubyDung\bin\Debug\net9.0\RubyDung.exe
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Color\RubyDung\bin\Debug\net9.0\RubyDung.deps.json
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Color\RubyDung\bin\Debug\net9.0\RubyDung.runtimeconfig.json
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Color\RubyDung\bin\Debug\net9.0\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Color\RubyDung\bin\Debug\net9.0\RubyDung.pdb
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Color\RubyDung\bin\Debug\net9.0\OpenTK.Audio.OpenAL.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Color\RubyDung\bin\Debug\net9.0\OpenTK.Compute.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Color\RubyDung\bin\Debug\net9.0\OpenTK.Core.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Color\RubyDung\bin\Debug\net9.0\OpenTK.Graphics.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Color\RubyDung\bin\Debug\net9.0\OpenTK.Input.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Color\RubyDung\bin\Debug\net9.0\OpenTK.Mathematics.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Color\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.Common.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Color\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.Desktop.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Color\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.GraphicsLibraryFramework.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Color\RubyDung\bin\Debug\net9.0\runtimes\linux-x64\native\libglfw.so.3
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Color\RubyDung\bin\Debug\net9.0\runtimes\osx-arm64\native\libglfw.3.dylib
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Color\RubyDung\bin\Debug\net9.0\runtimes\osx-x64\native\libglfw.3.dylib
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Color\RubyDung\bin\Debug\net9.0\runtimes\win-x64\native\glfw3.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Color\RubyDung\bin\Debug\net9.0\runtimes\win-x86\native\glfw3.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Color\RubyDung\obj\Debug\net9.0\RubyDung.csproj.AssemblyReference.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Color\RubyDung\obj\Debug\net9.0\RubyDung.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Color\RubyDung\obj\Debug\net9.0\RubyDung.AssemblyInfoInputs.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Color\RubyDung\obj\Debug\net9.0\RubyDung.AssemblyInfo.cs
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Color\RubyDung\obj\Debug\net9.0\RubyDung.csproj.CoreCompileInputs.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Color\RubyDung\obj\Debug\net9.0\RubyDung.csproj.Up2Date
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Color\RubyDung\obj\Debug\net9.0\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Color\RubyDung\obj\Debug\net9.0\refint\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Color\RubyDung\obj\Debug\net9.0\RubyDung.pdb
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Color\RubyDung\obj\Debug\net9.0\RubyDung.genruntimeconfig.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\13. Color\RubyDung\obj\Debug\net9.0\ref\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\14. Texture\RubyDung\bin\Debug\net9.0\RubyDung.exe
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\14. Texture\RubyDung\bin\Debug\net9.0\RubyDung.deps.json
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\14. Texture\RubyDung\bin\Debug\net9.0\RubyDung.runtimeconfig.json
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\14. Texture\RubyDung\bin\Debug\net9.0\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\14. Texture\RubyDung\bin\Debug\net9.0\RubyDung.pdb
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\14. Texture\RubyDung\bin\Debug\net9.0\OpenTK.Audio.OpenAL.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\14. Texture\RubyDung\bin\Debug\net9.0\OpenTK.Compute.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\14. Texture\RubyDung\bin\Debug\net9.0\OpenTK.Core.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\14. Texture\RubyDung\bin\Debug\net9.0\OpenTK.Graphics.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\14. Texture\RubyDung\bin\Debug\net9.0\OpenTK.Input.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\14. Texture\RubyDung\bin\Debug\net9.0\OpenTK.Mathematics.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\14. Texture\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.Common.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\14. Texture\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.Desktop.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\14. Texture\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.GraphicsLibraryFramework.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\14. Texture\RubyDung\bin\Debug\net9.0\StbImageSharp.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\14. Texture\RubyDung\bin\Debug\net9.0\runtimes\linux-x64\native\libglfw.so.3
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\14. Texture\RubyDung\bin\Debug\net9.0\runtimes\osx-arm64\native\libglfw.3.dylib
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\14. Texture\RubyDung\bin\Debug\net9.0\runtimes\osx-x64\native\libglfw.3.dylib
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\14. Texture\RubyDung\bin\Debug\net9.0\runtimes\win-x64\native\glfw3.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\14. Texture\RubyDung\bin\Debug\net9.0\runtimes\win-x86\native\glfw3.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\14. Texture\RubyDung\obj\Debug\net9.0\RubyDung.csproj.AssemblyReference.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\14. Texture\RubyDung\obj\Debug\net9.0\RubyDung.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\14. Texture\RubyDung\obj\Debug\net9.0\RubyDung.AssemblyInfoInputs.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\14. Texture\RubyDung\obj\Debug\net9.0\RubyDung.AssemblyInfo.cs
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\14. Texture\RubyDung\obj\Debug\net9.0\RubyDung.csproj.CoreCompileInputs.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\14. Texture\RubyDung\obj\Debug\net9.0\RubyDung.csproj.Up2Date
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\14. Texture\RubyDung\obj\Debug\net9.0\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\14. Texture\RubyDung\obj\Debug\net9.0\refint\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\14. Texture\RubyDung\obj\Debug\net9.0\RubyDung.pdb
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\14. Texture\RubyDung\obj\Debug\net9.0\RubyDung.genruntimeconfig.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\14. Texture\RubyDung\obj\Debug\net9.0\ref\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\15. Icone de Janela\RubyDung\bin\Debug\net9.0\RubyDung.exe
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\15. Icone de Janela\RubyDung\bin\Debug\net9.0\RubyDung.deps.json
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\15. Icone de Janela\RubyDung\bin\Debug\net9.0\RubyDung.runtimeconfig.json
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\15. Icone de Janela\RubyDung\bin\Debug\net9.0\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\15. Icone de Janela\RubyDung\bin\Debug\net9.0\RubyDung.pdb
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\15. Icone de Janela\RubyDung\bin\Debug\net9.0\OpenTK.Audio.OpenAL.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\15. Icone de Janela\RubyDung\bin\Debug\net9.0\OpenTK.Compute.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\15. Icone de Janela\RubyDung\bin\Debug\net9.0\OpenTK.Core.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\15. Icone de Janela\RubyDung\bin\Debug\net9.0\OpenTK.Graphics.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\15. Icone de Janela\RubyDung\bin\Debug\net9.0\OpenTK.Input.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\15. Icone de Janela\RubyDung\bin\Debug\net9.0\OpenTK.Mathematics.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\15. Icone de Janela\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.Common.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\15. Icone de Janela\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.Desktop.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\15. Icone de Janela\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.GraphicsLibraryFramework.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\15. Icone de Janela\RubyDung\bin\Debug\net9.0\StbImageSharp.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\15. Icone de Janela\RubyDung\bin\Debug\net9.0\runtimes\linux-x64\native\libglfw.so.3
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\15. Icone de Janela\RubyDung\bin\Debug\net9.0\runtimes\osx-arm64\native\libglfw.3.dylib
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\15. Icone de Janela\RubyDung\bin\Debug\net9.0\runtimes\osx-x64\native\libglfw.3.dylib
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\15. Icone de Janela\RubyDung\bin\Debug\net9.0\runtimes\win-x64\native\glfw3.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\15. Icone de Janela\RubyDung\bin\Debug\net9.0\runtimes\win-x86\native\glfw3.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\15. Icone de Janela\RubyDung\obj\Debug\net9.0\RubyDung.csproj.AssemblyReference.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\15. Icone de Janela\RubyDung\obj\Debug\net9.0\RubyDung.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\15. Icone de Janela\RubyDung\obj\Debug\net9.0\RubyDung.AssemblyInfoInputs.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\15. Icone de Janela\RubyDung\obj\Debug\net9.0\RubyDung.AssemblyInfo.cs
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\15. Icone de Janela\RubyDung\obj\Debug\net9.0\RubyDung.csproj.CoreCompileInputs.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\15. Icone de Janela\RubyDung\obj\Debug\net9.0\RubyDung.csproj.Up2Date
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\15. Icone de Janela\RubyDung\obj\Debug\net9.0\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\15. Icone de Janela\RubyDung\obj\Debug\net9.0\refint\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\15. Icone de Janela\RubyDung\obj\Debug\net9.0\RubyDung.pdb
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\15. Icone de Janela\RubyDung\obj\Debug\net9.0\RubyDung.genruntimeconfig.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\15. Icone de Janela\RubyDung\obj\Debug\net9.0\ref\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\16. Sistema de Coordenadas\RubyDung\bin\Debug\net9.0\RubyDung.exe
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\16. Sistema de Coordenadas\RubyDung\bin\Debug\net9.0\RubyDung.deps.json
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\16. Sistema de Coordenadas\RubyDung\bin\Debug\net9.0\RubyDung.runtimeconfig.json
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\16. Sistema de Coordenadas\RubyDung\bin\Debug\net9.0\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\16. Sistema de Coordenadas\RubyDung\bin\Debug\net9.0\RubyDung.pdb
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\16. Sistema de Coordenadas\RubyDung\bin\Debug\net9.0\OpenTK.Audio.OpenAL.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\16. Sistema de Coordenadas\RubyDung\bin\Debug\net9.0\OpenTK.Compute.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\16. Sistema de Coordenadas\RubyDung\bin\Debug\net9.0\OpenTK.Core.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\16. Sistema de Coordenadas\RubyDung\bin\Debug\net9.0\OpenTK.Graphics.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\16. Sistema de Coordenadas\RubyDung\bin\Debug\net9.0\OpenTK.Input.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\16. Sistema de Coordenadas\RubyDung\bin\Debug\net9.0\OpenTK.Mathematics.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\16. Sistema de Coordenadas\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.Common.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\16. Sistema de Coordenadas\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.Desktop.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\16. Sistema de Coordenadas\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.GraphicsLibraryFramework.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\16. Sistema de Coordenadas\RubyDung\bin\Debug\net9.0\StbImageSharp.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\16. Sistema de Coordenadas\RubyDung\bin\Debug\net9.0\runtimes\linux-x64\native\libglfw.so.3
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\16. Sistema de Coordenadas\RubyDung\bin\Debug\net9.0\runtimes\osx-arm64\native\libglfw.3.dylib
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\16. Sistema de Coordenadas\RubyDung\bin\Debug\net9.0\runtimes\osx-x64\native\libglfw.3.dylib
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\16. Sistema de Coordenadas\RubyDung\bin\Debug\net9.0\runtimes\win-x64\native\glfw3.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\16. Sistema de Coordenadas\RubyDung\bin\Debug\net9.0\runtimes\win-x86\native\glfw3.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\16. Sistema de Coordenadas\RubyDung\obj\Debug\net9.0\RubyDung.csproj.AssemblyReference.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\16. Sistema de Coordenadas\RubyDung\obj\Debug\net9.0\RubyDung.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\16. Sistema de Coordenadas\RubyDung\obj\Debug\net9.0\RubyDung.AssemblyInfoInputs.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\16. Sistema de Coordenadas\RubyDung\obj\Debug\net9.0\RubyDung.AssemblyInfo.cs
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\16. Sistema de Coordenadas\RubyDung\obj\Debug\net9.0\RubyDung.csproj.CoreCompileInputs.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\16. Sistema de Coordenadas\RubyDung\obj\Debug\net9.0\RubyDung.csproj.Up2Date
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\16. Sistema de Coordenadas\RubyDung\obj\Debug\net9.0\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\16. Sistema de Coordenadas\RubyDung\obj\Debug\net9.0\refint\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\16. Sistema de Coordenadas\RubyDung\obj\Debug\net9.0\RubyDung.pdb
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\16. Sistema de Coordenadas\RubyDung\obj\Debug\net9.0\RubyDung.genruntimeconfig.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\16. Sistema de Coordenadas\RubyDung\obj\Debug\net9.0\ref\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\17. Block\RubyDung\bin\Debug\net9.0\RubyDung.exe
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\17. Block\RubyDung\bin\Debug\net9.0\RubyDung.deps.json
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\17. Block\RubyDung\bin\Debug\net9.0\RubyDung.runtimeconfig.json
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\17. Block\RubyDung\bin\Debug\net9.0\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\17. Block\RubyDung\bin\Debug\net9.0\RubyDung.pdb
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\17. Block\RubyDung\bin\Debug\net9.0\OpenTK.Audio.OpenAL.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\17. Block\RubyDung\bin\Debug\net9.0\OpenTK.Compute.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\17. Block\RubyDung\bin\Debug\net9.0\OpenTK.Core.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\17. Block\RubyDung\bin\Debug\net9.0\OpenTK.Graphics.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\17. Block\RubyDung\bin\Debug\net9.0\OpenTK.Input.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\17. Block\RubyDung\bin\Debug\net9.0\OpenTK.Mathematics.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\17. Block\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.Common.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\17. Block\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.Desktop.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\17. Block\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.GraphicsLibraryFramework.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\17. Block\RubyDung\bin\Debug\net9.0\StbImageSharp.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\17. Block\RubyDung\bin\Debug\net9.0\runtimes\linux-x64\native\libglfw.so.3
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\17. Block\RubyDung\bin\Debug\net9.0\runtimes\osx-arm64\native\libglfw.3.dylib
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\17. Block\RubyDung\bin\Debug\net9.0\runtimes\osx-x64\native\libglfw.3.dylib
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\17. Block\RubyDung\bin\Debug\net9.0\runtimes\win-x64\native\glfw3.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\17. Block\RubyDung\bin\Debug\net9.0\runtimes\win-x86\native\glfw3.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\17. Block\RubyDung\obj\Debug\net9.0\RubyDung.csproj.AssemblyReference.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\17. Block\RubyDung\obj\Debug\net9.0\RubyDung.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\17. Block\RubyDung\obj\Debug\net9.0\RubyDung.AssemblyInfoInputs.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\17. Block\RubyDung\obj\Debug\net9.0\RubyDung.AssemblyInfo.cs
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\17. Block\RubyDung\obj\Debug\net9.0\RubyDung.csproj.CoreCompileInputs.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\17. Block\RubyDung\obj\Debug\net9.0\RubyDung.csproj.Up2Date
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\17. Block\RubyDung\obj\Debug\net9.0\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\17. Block\RubyDung\obj\Debug\net9.0\refint\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\17. Block\RubyDung\obj\Debug\net9.0\RubyDung.pdb
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\17. Block\RubyDung\obj\Debug\net9.0\RubyDung.genruntimeconfig.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\17. Block\RubyDung\obj\Debug\net9.0\ref\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\18. Camera\RubyDung\bin\Debug\net9.0\RubyDung.exe
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\18. Camera\RubyDung\bin\Debug\net9.0\RubyDung.deps.json
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\18. Camera\RubyDung\bin\Debug\net9.0\RubyDung.runtimeconfig.json
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\18. Camera\RubyDung\bin\Debug\net9.0\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\18. Camera\RubyDung\bin\Debug\net9.0\RubyDung.pdb
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\18. Camera\RubyDung\bin\Debug\net9.0\OpenTK.Audio.OpenAL.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\18. Camera\RubyDung\bin\Debug\net9.0\OpenTK.Compute.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\18. Camera\RubyDung\bin\Debug\net9.0\OpenTK.Core.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\18. Camera\RubyDung\bin\Debug\net9.0\OpenTK.Graphics.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\18. Camera\RubyDung\bin\Debug\net9.0\OpenTK.Input.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\18. Camera\RubyDung\bin\Debug\net9.0\OpenTK.Mathematics.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\18. Camera\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.Common.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\18. Camera\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.Desktop.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\18. Camera\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.GraphicsLibraryFramework.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\18. Camera\RubyDung\bin\Debug\net9.0\StbImageSharp.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\18. Camera\RubyDung\bin\Debug\net9.0\runtimes\linux-x64\native\libglfw.so.3
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\18. Camera\RubyDung\bin\Debug\net9.0\runtimes\osx-arm64\native\libglfw.3.dylib
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\18. Camera\RubyDung\bin\Debug\net9.0\runtimes\osx-x64\native\libglfw.3.dylib
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\18. Camera\RubyDung\bin\Debug\net9.0\runtimes\win-x64\native\glfw3.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\18. Camera\RubyDung\bin\Debug\net9.0\runtimes\win-x86\native\glfw3.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\18. Camera\RubyDung\obj\Debug\net9.0\RubyDung.csproj.AssemblyReference.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\18. Camera\RubyDung\obj\Debug\net9.0\RubyDung.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\18. Camera\RubyDung\obj\Debug\net9.0\RubyDung.AssemblyInfoInputs.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\18. Camera\RubyDung\obj\Debug\net9.0\RubyDung.AssemblyInfo.cs
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\18. Camera\RubyDung\obj\Debug\net9.0\RubyDung.csproj.CoreCompileInputs.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\18. Camera\RubyDung\obj\Debug\net9.0\RubyDung.csproj.Up2Date
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\18. Camera\RubyDung\obj\Debug\net9.0\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\18. Camera\RubyDung\obj\Debug\net9.0\refint\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\18. Camera\RubyDung\obj\Debug\net9.0\RubyDung.pdb
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\18. Camera\RubyDung\obj\Debug\net9.0\RubyDung.genruntimeconfig.cache
+D:\Documentos\CSharp\Minecraft\1.pre-classic\1\18. Camera\RubyDung\obj\Debug\net9.0\ref\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1. Pre-Classic\1. rd-131655 (Cave game tech test)\19. Camera -Mouse\RubyDung\bin\Debug\net9.0\RubyDung.exe
+D:\Documentos\CSharp\Minecraft\1. Pre-Classic\1. rd-131655 (Cave game tech test)\19. Camera -Mouse\RubyDung\bin\Debug\net9.0\RubyDung.deps.json
+D:\Documentos\CSharp\Minecraft\1. Pre-Classic\1. rd-131655 (Cave game tech test)\19. Camera -Mouse\RubyDung\bin\Debug\net9.0\RubyDung.runtimeconfig.json
+D:\Documentos\CSharp\Minecraft\1. Pre-Classic\1. rd-131655 (Cave game tech test)\19. Camera -Mouse\RubyDung\bin\Debug\net9.0\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1. Pre-Classic\1. rd-131655 (Cave game tech test)\19. Camera -Mouse\RubyDung\bin\Debug\net9.0\RubyDung.pdb
+D:\Documentos\CSharp\Minecraft\1. Pre-Classic\1. rd-131655 (Cave game tech test)\19. Camera -Mouse\RubyDung\bin\Debug\net9.0\OpenTK.Audio.OpenAL.dll
+D:\Documentos\CSharp\Minecraft\1. Pre-Classic\1. rd-131655 (Cave game tech test)\19. Camera -Mouse\RubyDung\bin\Debug\net9.0\OpenTK.Compute.dll
+D:\Documentos\CSharp\Minecraft\1. Pre-Classic\1. rd-131655 (Cave game tech test)\19. Camera -Mouse\RubyDung\bin\Debug\net9.0\OpenTK.Core.dll
+D:\Documentos\CSharp\Minecraft\1. Pre-Classic\1. rd-131655 (Cave game tech test)\19. Camera -Mouse\RubyDung\bin\Debug\net9.0\OpenTK.Graphics.dll
+D:\Documentos\CSharp\Minecraft\1. Pre-Classic\1. rd-131655 (Cave game tech test)\19. Camera -Mouse\RubyDung\bin\Debug\net9.0\OpenTK.Input.dll
+D:\Documentos\CSharp\Minecraft\1. Pre-Classic\1. rd-131655 (Cave game tech test)\19. Camera -Mouse\RubyDung\bin\Debug\net9.0\OpenTK.Mathematics.dll
+D:\Documentos\CSharp\Minecraft\1. Pre-Classic\1. rd-131655 (Cave game tech test)\19. Camera -Mouse\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.Common.dll
+D:\Documentos\CSharp\Minecraft\1. Pre-Classic\1. rd-131655 (Cave game tech test)\19. Camera -Mouse\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.Desktop.dll
+D:\Documentos\CSharp\Minecraft\1. Pre-Classic\1. rd-131655 (Cave game tech test)\19. Camera -Mouse\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.GraphicsLibraryFramework.dll
+D:\Documentos\CSharp\Minecraft\1. Pre-Classic\1. rd-131655 (Cave game tech test)\19. Camera -Mouse\RubyDung\bin\Debug\net9.0\StbImageSharp.dll
+D:\Documentos\CSharp\Minecraft\1. Pre-Classic\1. rd-131655 (Cave game tech test)\19. Camera -Mouse\RubyDung\bin\Debug\net9.0\runtimes\linux-x64\native\libglfw.so.3
+D:\Documentos\CSharp\Minecraft\1. Pre-Classic\1. rd-131655 (Cave game tech test)\19. Camera -Mouse\RubyDung\bin\Debug\net9.0\runtimes\osx-arm64\native\libglfw.3.dylib
+D:\Documentos\CSharp\Minecraft\1. Pre-Classic\1. rd-131655 (Cave game tech test)\19. Camera -Mouse\RubyDung\bin\Debug\net9.0\runtimes\osx-x64\native\libglfw.3.dylib
+D:\Documentos\CSharp\Minecraft\1. Pre-Classic\1. rd-131655 (Cave game tech test)\19. Camera -Mouse\RubyDung\bin\Debug\net9.0\runtimes\win-x64\native\glfw3.dll
+D:\Documentos\CSharp\Minecraft\1. Pre-Classic\1. rd-131655 (Cave game tech test)\19. Camera -Mouse\RubyDung\bin\Debug\net9.0\runtimes\win-x86\native\glfw3.dll
+D:\Documentos\CSharp\Minecraft\1. Pre-Classic\1. rd-131655 (Cave game tech test)\19. Camera -Mouse\RubyDung\obj\Debug\net9.0\RubyDung.csproj.AssemblyReference.cache
+D:\Documentos\CSharp\Minecraft\1. Pre-Classic\1. rd-131655 (Cave game tech test)\19. Camera -Mouse\RubyDung\obj\Debug\net9.0\RubyDung.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\CSharp\Minecraft\1. Pre-Classic\1. rd-131655 (Cave game tech test)\19. Camera -Mouse\RubyDung\obj\Debug\net9.0\RubyDung.AssemblyInfoInputs.cache
+D:\Documentos\CSharp\Minecraft\1. Pre-Classic\1. rd-131655 (Cave game tech test)\19. Camera -Mouse\RubyDung\obj\Debug\net9.0\RubyDung.AssemblyInfo.cs
+D:\Documentos\CSharp\Minecraft\1. Pre-Classic\1. rd-131655 (Cave game tech test)\19. Camera -Mouse\RubyDung\obj\Debug\net9.0\RubyDung.csproj.CoreCompileInputs.cache
+D:\Documentos\CSharp\Minecraft\1. Pre-Classic\1. rd-131655 (Cave game tech test)\19. Camera -Mouse\RubyDung\obj\Debug\net9.0\RubyDung.csproj.Up2Date
+D:\Documentos\CSharp\Minecraft\1. Pre-Classic\1. rd-131655 (Cave game tech test)\19. Camera -Mouse\RubyDung\obj\Debug\net9.0\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1. Pre-Classic\1. rd-131655 (Cave game tech test)\19. Camera -Mouse\RubyDung\obj\Debug\net9.0\refint\RubyDung.dll
+D:\Documentos\CSharp\Minecraft\1. Pre-Classic\1. rd-131655 (Cave game tech test)\19. Camera -Mouse\RubyDung\obj\Debug\net9.0\RubyDung.pdb
+D:\Documentos\CSharp\Minecraft\1. Pre-Classic\1. rd-131655 (Cave game tech test)\19. Camera -Mouse\RubyDung\obj\Debug\net9.0\RubyDung.genruntimeconfig.cache
+D:\Documentos\CSharp\Minecraft\1. Pre-Classic\1. rd-131655 (Cave game tech test)\19. Camera -Mouse\RubyDung\obj\Debug\net9.0\ref\RubyDung.dll
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\01. Bloco\RubyDung\bin\Debug\net9.0\RubyDung.exe
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\01. Bloco\RubyDung\bin\Debug\net9.0\RubyDung.deps.json
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\01. Bloco\RubyDung\bin\Debug\net9.0\RubyDung.runtimeconfig.json
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\01. Bloco\RubyDung\bin\Debug\net9.0\RubyDung.dll
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\01. Bloco\RubyDung\bin\Debug\net9.0\RubyDung.pdb
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\01. Bloco\RubyDung\bin\Debug\net9.0\OpenTK.Audio.OpenAL.dll
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\01. Bloco\RubyDung\bin\Debug\net9.0\OpenTK.Compute.dll
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\01. Bloco\RubyDung\bin\Debug\net9.0\OpenTK.Core.dll
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\01. Bloco\RubyDung\bin\Debug\net9.0\OpenTK.Graphics.dll
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\01. Bloco\RubyDung\bin\Debug\net9.0\OpenTK.Input.dll
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\01. Bloco\RubyDung\bin\Debug\net9.0\OpenTK.Mathematics.dll
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\01. Bloco\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.Common.dll
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\01. Bloco\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.Desktop.dll
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\01. Bloco\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.GraphicsLibraryFramework.dll
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\01. Bloco\RubyDung\bin\Debug\net9.0\StbImageSharp.dll
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\01. Bloco\RubyDung\bin\Debug\net9.0\runtimes\linux-x64\native\libglfw.so.3
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\01. Bloco\RubyDung\bin\Debug\net9.0\runtimes\osx-arm64\native\libglfw.3.dylib
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\01. Bloco\RubyDung\bin\Debug\net9.0\runtimes\osx-x64\native\libglfw.3.dylib
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\01. Bloco\RubyDung\bin\Debug\net9.0\runtimes\win-x64\native\glfw3.dll
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\01. Bloco\RubyDung\bin\Debug\net9.0\runtimes\win-x86\native\glfw3.dll
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\01. Bloco\RubyDung\obj\Debug\net9.0\RubyDung.csproj.AssemblyReference.cache
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\01. Bloco\RubyDung\obj\Debug\net9.0\RubyDung.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\01. Bloco\RubyDung\obj\Debug\net9.0\RubyDung.AssemblyInfoInputs.cache
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\01. Bloco\RubyDung\obj\Debug\net9.0\RubyDung.AssemblyInfo.cs
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\01. Bloco\RubyDung\obj\Debug\net9.0\RubyDung.csproj.CoreCompileInputs.cache
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\01. Bloco\RubyDung\obj\Debug\net9.0\RubyDung.sourcelink.json
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\01. Bloco\RubyDung\obj\Debug\net9.0\RubyDung.csproj.Up2Date
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\01. Bloco\RubyDung\obj\Debug\net9.0\RubyDung.dll
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\01. Bloco\RubyDung\obj\Debug\net9.0\refint\RubyDung.dll
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\01. Bloco\RubyDung\obj\Debug\net9.0\RubyDung.pdb
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\01. Bloco\RubyDung\obj\Debug\net9.0\RubyDung.genruntimeconfig.cache
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\01. Bloco\RubyDung\obj\Debug\net9.0\ref\RubyDung.dll
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\02\RubyDung\bin\Debug\net9.0\RubyDung.exe
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\02\RubyDung\bin\Debug\net9.0\RubyDung.deps.json
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\02\RubyDung\bin\Debug\net9.0\RubyDung.runtimeconfig.json
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\02\RubyDung\bin\Debug\net9.0\RubyDung.dll
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\02\RubyDung\bin\Debug\net9.0\RubyDung.pdb
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\02\RubyDung\bin\Debug\net9.0\OpenTK.Audio.OpenAL.dll
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\02\RubyDung\bin\Debug\net9.0\OpenTK.Compute.dll
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\02\RubyDung\bin\Debug\net9.0\OpenTK.Core.dll
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\02\RubyDung\bin\Debug\net9.0\OpenTK.Graphics.dll
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\02\RubyDung\bin\Debug\net9.0\OpenTK.Input.dll
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\02\RubyDung\bin\Debug\net9.0\OpenTK.Mathematics.dll
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\02\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.Common.dll
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\02\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.Desktop.dll
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\02\RubyDung\bin\Debug\net9.0\OpenTK.Windowing.GraphicsLibraryFramework.dll
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\02\RubyDung\bin\Debug\net9.0\StbImageSharp.dll
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\02\RubyDung\bin\Debug\net9.0\runtimes\linux-x64\native\libglfw.so.3
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\02\RubyDung\bin\Debug\net9.0\runtimes\osx-arm64\native\libglfw.3.dylib
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\02\RubyDung\bin\Debug\net9.0\runtimes\osx-x64\native\libglfw.3.dylib
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\02\RubyDung\bin\Debug\net9.0\runtimes\win-x64\native\glfw3.dll
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\02\RubyDung\bin\Debug\net9.0\runtimes\win-x86\native\glfw3.dll
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\02\RubyDung\obj\Debug\net9.0\RubyDung.csproj.AssemblyReference.cache
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\02\RubyDung\obj\Debug\net9.0\RubyDung.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\02\RubyDung\obj\Debug\net9.0\RubyDung.AssemblyInfoInputs.cache
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\02\RubyDung\obj\Debug\net9.0\RubyDung.AssemblyInfo.cs
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\02\RubyDung\obj\Debug\net9.0\RubyDung.csproj.CoreCompileInputs.cache
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\02\RubyDung\obj\Debug\net9.0\RubyDung.sourcelink.json
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\02\RubyDung\obj\Debug\net9.0\RubyDung.csproj.Up2Date
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\02\RubyDung\obj\Debug\net9.0\RubyDung.dll
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\02\RubyDung\obj\Debug\net9.0\refint\RubyDung.dll
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\02\RubyDung\obj\Debug\net9.0\RubyDung.pdb
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\02\RubyDung\obj\Debug\net9.0\RubyDung.genruntimeconfig.cache
+D:\Documentos\Github\Minecraft_CSharp\1. Pre-Classic\01a. Testes de Colisão\02\RubyDung\obj\Debug\net9.0\ref\RubyDung.dll
