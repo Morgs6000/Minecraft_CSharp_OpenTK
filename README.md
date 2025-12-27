@@ -34,7 +34,7 @@ E o instagram, só pra ter...
 
 ## Versões
 
-Todas as versões podem ser consultadas na Wiki do Minecraft. Abaixam estão listadas apenas versões que adicionam ou mudam alguma coisa no jogo, não se assuste, algumas versões adicionam apenas um bloco ou item. E obviamente não faremos tudo, uma das coisas que pensamos em descartar são coisas originais do Minecraft, como Creepers e Redstone. Nas primeiras versões o mundo era limitado a 256x64x256 blocos. O objetivo até o momento é chegar até a versão Infdev, onde o mundo se torna infinito.
+Todas as versões podem ser consultadas na Wiki do Minecraft. Abaixam estão listadas apenas versões que adicionam ou mudam alguma coisa no jogo, não se assuste, algumas versões adicionam apenas um bloco ou item, e obviamente não faremos tudo, uma das coisas que pensamos em descartar são coisas originais do Minecraft, como Creepers e Redstone. Nas primeiras versões o mundo era limitado a 256x64x256 blocos. O objetivo até o momento é chegar até a versão Infdev, onde o mundo se torna infinito.
 
 <img src="https://github.com/user-attachments/assets/0313e113-9c0b-43ec-93c1-cc7dff0a99c7" width="90" height="90"> [Java Edition version history](https://minecraft.wiki/w/Java_Edition_version_history)
 
@@ -51,18 +51,18 @@ Abaixo, links de acesso rapido as pastas que estão em progresso ou ja foram con
 ### Clássico
 
 **Classic | Private Alpha**
-* 0.0.2a
+* [0.0.2a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/01.%20Private%20Alpha/01.%200.0.2a)
 * 0.0.3a
-* 0.0.9a
-* 0.0.10a
+* [0.0.9a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/01.%20Private%20Alpha/02.%200.0.9a)
+* [0.0.10a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/01.%20Private%20Alpha/03.%200.0.10a)
 
 **Classic | Early Classic**
-* 0.0.12a
+* [0.0.12a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/02.%20Early%20Classic/01.%200.0.12a)
 * 0.0.12a_01
-* 0.0.13a
-* 0.0.13a_03
-* 0.0.14a
-* 0.0.14a_04
+* [0.0.13a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/02.%20Early%20Classic/02.%200.0.13a)
+* [0.0.13a_03](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/02.%20Early%20Classic/03.%200.0.13a_03)
+* [0.0.14a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/02.%20Early%20Classic/04.%200.0.14a)
+* [0.0.14a_04](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/02.%20Early%20Classic/05.%200.0.14a_04)
 * 0.0.14a_08
 
 **Classic | Multiplayer Test**
