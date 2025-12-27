@@ -35,7 +35,7 @@ public class Window : GameWindow
         level = new Level(16, 16, 16);
         terrain = new Terrain(level);
         camera = new Camera(level);
-        highlight = new Highlight(shader, level, camera);
+        highlight = new Highlight(level, camera);
 
         shadedMode = ShadedMode.Shaded;
     }

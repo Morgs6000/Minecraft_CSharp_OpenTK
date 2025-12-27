@@ -10,8 +10,6 @@ uniform bool hasTexture;
 
 uniform sampler2D ourTexture;
 
-uniform vec4 uniformColor = vec4(1.0f);
-
 void main()
 {
     FragColor = vec4(1.0f);
@@ -28,6 +26,4 @@ void main()
     {
         FragColor *= texture(ourTexture, TexCoord);
     }
-    
-    FragColor *= uniformColor;
 } 

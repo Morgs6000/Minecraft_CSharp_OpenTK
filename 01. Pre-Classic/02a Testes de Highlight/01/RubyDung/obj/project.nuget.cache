@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aGTPAlaf/pk=",
+  "dgSpecHash": "azZRpsR0nok=",
   "success": true,
-  "projectFilePath": "D:\\Documentos\\Github\\Minecraft_CSharp_OpenTK\\01. Pre-Classic\\02. rd-132211\\01. Highlight\\RubyDung\\RubyDung.csproj",
+  "projectFilePath": "D:\\Documentos\\Github\\Minecraft_CSharp_OpenTK\\01. Pre-Classic\\02a Testes de Highlight\\01\\RubyDung\\RubyDung.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Morgana Stradivarius\\.nuget\\packages\\opentk\\4.9.4\\opentk.4.9.4.nupkg.sha512",
     "C:\\Users\\Morgana Stradivarius\\.nuget\\packages\\opentk.audio.openal\\4.9.4\\opentk.audio.openal.4.9.4.nupkg.sha512",
