@@ -34,7 +34,7 @@ E o instagram, só pra ter...
 
 ## Versões
 
-Todas as versões podem ser consultadas na Wiki do Minecraft. Abaixam estão listadas apenas versões que adicionam ou mudam alguma coisa no jogo, não se assuste, algumas versões adicionam apenas um bloco ou item. E obviamente não faremos tudo, uma das coisas que pensamos em descartar são coisas originais do Minecraft, como Creepers e Redstone. Nas primeiras versões o mundo era limitado a 256x64x256 blocos. O objetivo até o momento é chegar até a versão Infdev, onde o mundo se torna infinito.
+Todas as versões podem ser consultadas na Wiki do Minecraft. Abaixam estão listadas apenas versões que adicionam ou mudam alguma coisa no jogo, não se assuste, algumas versões adicionam apenas um bloco ou item, e obviamente não faremos tudo, uma das coisas que pensamos em descartar são coisas originais do Minecraft, como Creepers e Redstone. Nas primeiras versões o mundo era limitado a 256x64x256 blocos. O objetivo até o momento é chegar até a versão Infdev, onde o mundo se torna infinito.
 
 <img src="https://github.com/user-attachments/assets/0313e113-9c0b-43ec-93c1-cc7dff0a99c7" width="90" height="90"> [Java Edition version history](https://minecraft.wiki/w/Java_Edition_version_history)
 
