@@ -10,7 +10,11 @@ Este projeto tem como objetivo recriar as primeiras versões do Minecraft usando
 
 Quem quiser ajudar com o projeto seja bem-vindo a se juntar a nós no Discord:
 
-<img src="https://github.com/user-attachments/assets/fe0fedfb-5be2-4ccd-bf54-f61446301e84" width="30" height="30"> [Discord](https://discord.gg/2NHGc8PHmq)
+<img src="https://github.com/user-attachments/assets/fe0fedfb-5be2-4ccd-bf54-f61446301e84" width="30" height="30"> [Discord](https://www.youtube.com/@StradivariusDev/)
+
+O progresso deste trabalho esta sendo registrado em video no YouTube:
+
+<img src="https://github.com/user-attachments/assets/abc360e9-233c-49e2-891f-3511c6c4ae55" width="30" height="30"> [Stradivarius Dev](https://discord.gg/2NHGc8PHmq)
 
 ## Ferramentas e Tecnologias
 
