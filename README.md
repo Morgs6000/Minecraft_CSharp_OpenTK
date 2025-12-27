@@ -1,6 +1,6 @@
 # Minecraft_CSharp_OpenTK
 
-Para de reclamar que tem um monte de pasta, procura a p@#$% da pasta que você quer, copia a p@#$% o URL e cola nessa p@#$% desse link: 
+Para de reclamar que tem um monte de pasta, procura a p@#$% da pasta que você quer, copia a p@#$% do URL e cola nessa p@#$% desse link: 
 
 <img src="https://github.com/user-attachments/assets/ed00c22a-2aa4-4854-be83-83e270da6d27" width="30" height="30"> [Download GitHub Directory](https://download-directory.github.io/)
 
