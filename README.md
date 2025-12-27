@@ -22,6 +22,72 @@ Este projeto tem como objetivo recriar as primeiras versões do Minecraft usando
 
 ## Versões
 
-**Pré-Classico**
+### Pré-Classico
 
 * [rd-131655 (Cave game tech test)](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/1.%20Pre-Classic/01.%20rd-131655%20(Cave%20game%20tech%20test))
+* rd-132211
+* rd-132328
+* rd-160052
+* rd-161348
+
+### Clássico
+
+**Private Alpha**
+* 0.0.2a
+* 0.0.3a
+* 0.0.9a
+* 0.0.10a
+
+**Early Classic**
+* 0.0.12a
+* 0.0.12a_01
+* 0.0.13a
+* 0.0.13a_03
+* 0.0.14a
+* 0.0.14a_04
+* 0.0.14a_08
+
+**Multiplayer Test**
+* 0.0.15a (Multiplayer Teste 1)
+* 0.0.15a (Multiplayer Teste 2)
+* 0.0.15a (Multiplayer Teste 4)
+* 0.0.15a (Multiplayer Teste 5)
+* 0.0.16a
+* 0.0.16a_01
+* 0.0.16a_02
+* 0.0.17a
+* 0.0.18a
+* 0.0.18a_02
+* 0.0.19a
+* 0.0.19a_01
+* 0.0.19a_02
+* 0.0.20a
+* 0.0.20a_01
+* 0.0.20a_02
+* 0.0.21a
+* 0.0.22a
+* 0.0.22a_01
+* 0.0.22a_05
+* 0.0.23a
+* 0.0.23a_01
+
+**Survival Test**
+* 0.24_SURVIVAL_TEST
+* 0.25 SURVIVAL TEST
+* 0.25 SURVIVAL TEST 2
+* 0.25 SURVIVAL TEST 3
+* 0.25 SURVIVAL TEST 4
+* 0.25_05 SURVIVAL TEST
+* 0.26 SURVIVAL TEST
+* 0.27 SURVIVAL TEST
+
+**Late Classic**
+* 0.28
+* 0.29
+* 0.29_01
+* 0.30
+
+### Indev
+* Indev 0.31 20091223-0040
+
+### Infdev
