@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>    
+  </PropertyGroup>
+
+  <!-- Seus pacotes NuGet -->
+  <ItemGroup>
+    <PackageReference Include="OpenTK" Version="4.9.4" />
+    <PackageReference Include="StbImageSharp" Version="2.30.15" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <!-- Definindo variáveis -->
+    <IconPath>res\icon.ico</IconPath>
+
+    <!-- Caminho relativo para o ícone -->
+    <ApplicationIcon>$(IconPath)</ApplicationIcon>
+  </PropertyGroup>
+
+  <!-- ItemGroup consolidado para todos os recursos -->
+  <ItemGroup>    
+    <!-- Pasta de recursos -->
+    <None Update="res\**\*.*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+
+    <!-- Ícone do executável -->
+    <Content Include="$(IconPath)">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    
+    <!-- Outros arquivos de configuração (opcional) -->
+    <!-- <None Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None> -->
+  </ItemGroup>
+
+</Project>
