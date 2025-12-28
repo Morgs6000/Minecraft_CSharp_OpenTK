@@ -294,7 +294,7 @@ public class Camera
     {
         UpdateCameraBox();
 
-        onGround = false;
+        // onGround = false;
         
         List<AABB> cubes = level.GetCubes(cameraBox);
 
@@ -335,26 +335,50 @@ public class Camera
 
     private void UpdateCameraBox()
     {
+        /*
         float x0 = Position.X - (playerWidht / 2.0f);
-        float y0 = Position.Y - eyeHeight;
+        float y0 = Position.Y - (playerHeight / 2.0f);
         float z0 = Position.Z - (playerWidht / 2.0f);
 
         float x1 = Position.X + (playerWidht / 2.0f);
-        float y1 = (Position.Y - eyeHeight) + playerHeight;
+        float y1 = Position.Y + (playerHeight / 2.0f);
         float z1 = Position.Z + (playerWidht / 2.0f);
+        //*/
+
+        //*
+        float x = Position.X;
+        float y = position.Y - eyeHeight;
+        float z = position.Z;
+
+        float w = (playerWidht / 2.0f);
+        float h = (playerHeight / 2.0f);
+
+        float x0 = x - w;
+        float y0 = y - h;
+        float z0 = z - w;
+
+        float x1 = x + w;
+        float y1 = y + h;
+        float z1 = z + w;
+        //*/
+
+        // Debug.Log($"{x0:f2}, {y0:f2}, {z0:f2}, {x1:f2}, {y1:f2}, {z1:f2}", true);
+        // Debug.Log($"{y0}, {y1}", true);
 
         cameraBox = new AABB(x0, y0, z0, x1, y1, z1);
     }
     
     private void ProcessGravity()
     {
-        if(onGround && velocity.Y < 0)
+        if (onGround && velocity.Y < 0)
         {
             velocity.Y = -2.0f;
         }
-
+        
         velocity.Y -= falling * Time.deltaTime;
         Position += velocity * Time.deltaTime;
+        
+        // Debug.Log($"{Position.Y}", true);
     }
 
     private void ProcessJump()
