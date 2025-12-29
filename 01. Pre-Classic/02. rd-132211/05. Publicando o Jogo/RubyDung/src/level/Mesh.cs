@@ -1,32 +1,31 @@
 using OpenTK.Graphics.OpenGL4;
-using RubyDung.common;
 
-namespace RubyDung.level;
+namespace RubyDung;
 
 public class Mesh
 {
     private List<float> vertexBuffer = new List<float>();
     private List<uint> indiceBuffer = new List<uint>();
     private List<float> colorBuffer = new List<float>();
-    private List<float> texCoordBuffer = new List<float>();
+    private List<float> textureBuffer = new List<float>();
 
     private uint vertices = 0;
-
+    
+    private float u;
+    private float v;
+    
     private float r;
     private float g;
     private float b;
-
-    private float u;
-    private float v;
-
+    
     private bool hasColor = false;
     private bool hasTexture = false;
 
-    private uint VAO;
-    private uint VBO;
-    private uint EBO;
-    private uint CBO;
-    private uint TBO;
+    uint VAO; // Vertex Array Object
+    uint VBO; // Vertex Buffer Object
+    uint EBO; // Element Buffer Object
+    uint CBO; // Color Buffer Object
+    uint TBO; // Texture Buffer Object
 
     public void Begin()
     {
@@ -41,7 +40,7 @@ public class Mesh
         vertexBuffer.Clear();
         indiceBuffer.Clear();
         colorBuffer.Clear();
-        texCoordBuffer.Clear();
+        textureBuffer.Clear();
 
         vertices = 0;
     }
@@ -77,75 +76,24 @@ public class Mesh
         {
             GL.GenBuffers(1, out TBO);
             GL.BindBuffer(BufferTarget.ArrayBuffer, TBO);
-            GL.BufferData(BufferTarget.ArrayBuffer, texCoordBuffer.Count * sizeof(float), texCoordBuffer.ToArray(), BufferUsageHint.StaticDraw);
+            GL.BufferData(BufferTarget.ArrayBuffer, textureBuffer.Count * sizeof(float), textureBuffer.ToArray(), BufferUsageHint.StaticDraw);
 
-            int aTexCoord = 2;
-            GL.VertexAttribPointer(aTexCoord, 2, VertexAttribPointerType.Float, false, 2 * sizeof(float), 0);
-            GL.EnableVertexAttribArray(aTexCoord);
+            int aTexture = 2;
+            GL.VertexAttribPointer(aTexture, 2, VertexAttribPointerType.Float, false, 2 * sizeof(float), 0);
+            GL.EnableVertexAttribArray(aTexture);
         }
     }
-
-    public void Draw(Shader shader, ShadedMode shadedMode)
+    
+    public void Draw(Shader shader)
     {
         shader.SetBool("hasColor", hasColor);
         shader.SetBool("hasTexture", hasTexture);
 
         GL.BindVertexArray(VAO);
-
-        if (shadedMode == ShadedMode.Shaded || shadedMode == ShadedMode.ShadedWireframe)
-        {
-            shader.SetBool("hasWireframe", false);
-            DrawFill();
-        }
-        if (shadedMode == ShadedMode.Wireframe || shadedMode == ShadedMode.ShadedWireframe)
-        {
-            shader.SetBool("hasWireframe", true);
-            DrawWireframe();
-        }  
-
-        GL.BindVertexArray(0);
-    }
-    
-    private void DrawFill()
-    {
-        GL.PolygonMode(TriangleFace.FrontAndBack, PolygonMode.Fill);
-
         GL.DrawElements(PrimitiveType.Triangles, indiceBuffer.Count, DrawElementsType.UnsignedInt, 0);
     }
 
-    private void DrawWireframe()
-    {
-        // Configura o offset para o wireframe
-        GL.Enable(EnableCap.PolygonOffsetLine);
-        GL.PolygonOffset(-1.0f, -1.0f);  // Valores negativos para "puxar" o wireframe para frente
-
-        GL.PolygonMode(TriangleFace.FrontAndBack, PolygonMode.Line);
-        GL.LineWidth(1.0f);
-
-        GL.DrawElements(PrimitiveType.Triangles, indiceBuffer.Count, DrawElementsType.UnsignedInt, 0);
-        
-        // Desativa o offset após desenhar
-        GL.Disable(EnableCap.PolygonOffsetLine);
-    }
-
-    public void Vertex2_UV(float x, float y, float u, float v)
-    {
-        Tex(u, v);
-        Vertex3(x, y, 0.0f);
-    }
-
-    public void Vertex3_UV(float x, float y, float z, float u, float v)
-    {
-        Tex(u, v);
-        Vertex3(x, y, z);
-    }
-
-    public void Vertex2(float x, float y)
-    {
-        Vertex3(x, y, 0.0f);
-    }
-
-    public void Vertex3(float x, float y, float z)
+    public void Vertex(float x, float y, float z)
     {
         vertexBuffer.Add(x);
         vertexBuffer.Add(y);
@@ -163,8 +111,8 @@ public class Mesh
         }
         if (hasTexture)
         {
-            texCoordBuffer.Add(u);
-            texCoordBuffer.Add(v);
+            textureBuffer.Add(u);
+            textureBuffer.Add(v);
         }
     }
 

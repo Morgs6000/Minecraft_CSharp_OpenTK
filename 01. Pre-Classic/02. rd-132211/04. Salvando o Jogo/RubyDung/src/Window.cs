@@ -2,8 +2,7 @@ using OpenTK.Graphics.OpenGL4;
 using OpenTK.Mathematics;
 using OpenTK.Windowing.Common;
 using OpenTK.Windowing.Desktop;
-using RubyDung.common;
-using RubyDung.level;
+using OpenTK.Windowing.GraphicsLibraryFramework;
 
 namespace RubyDung;
 
@@ -14,28 +13,21 @@ public class Window : GameWindow
 
     private Level level;
     private Terrain terrain;
-    private ShadedMode shadedMode;
 
     private Camera camera;
     private Highlight highlight;
 
-    private bool hasPause = false;
-
     public Window(GameWindowSettings gameWindowSettings, NativeWindowSettings nativeWindowSettings) : base(gameWindowSettings, nativeWindowSettings)
     {
-        Screen.Init(this);
-
-        string vertexPath = "src/shaders/default/vertex.glsl";
-        string fragmentPath = "src/shaders/default/fragment.glsl";
+        string vertexPath = "res/shaders/default/vertex.glsl";
+        string fragmentPath = "res/shaders/default/fragment.glsl";
         shader = new Shader(vertexPath, fragmentPath);
 
-        string texturePath = "src/textures/terrain.png";
+        string texturePath = "res/textures/terrain.png";
         texture = new Texture(texturePath);
 
-        shadedMode = ShadedMode.Shaded;
-
         level = new Level(256, 64, 256);
-        terrain = new Terrain(level); 
+        terrain = new Terrain(level);
 
         camera = new Camera(level);
         highlight = new Highlight(level, terrain, camera);
@@ -49,6 +41,8 @@ public class Window : GameWindow
 
         terrain.Load();
 
+        // GL.PolygonMode(TriangleFace.FrontAndBack, PolygonMode.Line);
+
         GL.Enable(EnableCap.DepthTest);
 
         GL.Enable(EnableCap.CullFace);
@@ -59,56 +53,17 @@ public class Window : GameWindow
     {
         base.OnUpdateFrame(args);
 
-        Time.Update();
-        Input.Update(this);
-        GameCursor.Update(this);
-
-        if (Input.GetKey(KeyCode.Escape))
+        if (KeyboardState.IsKeyDown(Keys.Escape))
         {
             Close();
-            // hasPause = true;
-            // hasPause = !hasPause;
         }
-
-        // if (IsFocused)
-        // {
-        //     if (Input.GetMouseButtonDown(0))
-        //     {
-        //         hasPause = false;
-        //     }
-        // }
-
-        if (Input.GetKey(KeyCode.F3))
-        {
-            if (Input.GetKeyDown(KeyCode.W))
-            {
-                switch (shadedMode)
-                {
-                    case ShadedMode.Shaded:
-                        shadedMode = ShadedMode.ShadedWireframe;
-                        break;
-                    case ShadedMode.ShadedWireframe:
-                        shadedMode = ShadedMode.Wireframe;
-                        break;
-                    case ShadedMode.Wireframe:
-                        shadedMode = ShadedMode.Shaded;
-                        break;
-                }
-
-                Debug.Log($"shadedMode: {shadedMode}");
-            }
-        }
-        else
-        {
-            camera.Update(hasPause);
-            highlight.Update();
-        }
-        if (Input.GetKeyDown(KeyCode.Return))
+        if (KeyboardState.IsKeyPressed(Keys.Enter))
         {
             level.Save();
-        }        
+        }
 
-        GameCursor.lockState = hasPause ? CursorLockMode.None : CursorLockMode.Locked;
+        camera.Update(this);
+        highlight.Update(this);
     }
 
     protected override void OnRenderFrame(FrameEventArgs args)
@@ -119,8 +74,6 @@ public class Window : GameWindow
 
         shader.Use();
 
-        shader.SetBool("hasCustomColor", false);
-
         Matrix4 model = Matrix4.Identity;
         shader.SetMatrix4("model", model);
 
@@ -129,13 +82,15 @@ public class Window : GameWindow
         shader.SetMatrix4("view", view);
 
         Matrix4 projection = Matrix4.Identity;
-        projection *= camera.CreatePerspectiveFieldOfView();
+        projection = camera.CreatePerspectiveFieldOfView(this);
         shader.SetMatrix4("projection", projection);
+
+        shader.SetBool("hasUniformColor", false);
 
         texture.Bind();
 
-        terrain.Draw(shader, shadedMode);
-        highlight.Draw(shader, shadedMode);
+        terrain.Draw(shader);
+        highlight.Draw(shader);
 
         SwapBuffers();
     }
@@ -144,7 +99,7 @@ public class Window : GameWindow
     {
         base.OnFramebufferResize(e);
 
-        GL.Viewport(0, 0, Screen.widht, Screen.height);
+        GL.Viewport(0, 0, ClientSize.X, ClientSize.Y);
     }
 
     protected override void OnUnload()

@@ -1,12 +1,11 @@
-using RubyDung.common;
-
-namespace RubyDung.level;
+namespace RubyDung;
 
 public class Terrain
 {
+    private static readonly int CHUNK_SIZE = 16;
+
     private Level level;
-    private Chunk[,,] chunks;
-    private readonly int CHUNK_SIZE = 16;
+    private Chunk[] chunks;
 
     private int xChunks;
     private int yChunks;
@@ -20,7 +19,7 @@ public class Terrain
         yChunks = level.height / CHUNK_SIZE;
         zChunks = level.depth  / CHUNK_SIZE;
 
-        chunks = new Chunk[xChunks, yChunks, zChunks];
+        chunks = new Chunk[xChunks * yChunks * zChunks];
 
         for (int x = 0; x < xChunks; x++)
         {
@@ -36,11 +35,11 @@ public class Terrain
                     int y1 = (y + 1) * CHUNK_SIZE;
                     int z1 = (z + 1) * CHUNK_SIZE;
 
-                    if (x1 > level.width)
+                    if(x1 > level.width)
                     {
                         x1 = level.width;
                     }
-                    if (y1 > level.height)
+                    if(y1 > level.height)
                     {
                         y1 = level.height;
                     }
@@ -48,8 +47,10 @@ public class Terrain
                     {
                         z1 = level.depth;
                     }
-
-                    chunks[x, y, z] = new Chunk(level, x0, y0, z0, x1, y1, z1);
+                    
+                    chunks[(x + y * xChunks) * zChunks + z] = new Chunk(
+                        level, x0, y0, z0, x1, y1, z1
+                    );
                 }
             }
         }
@@ -60,71 +61,15 @@ public class Terrain
         foreach (Chunk chunk in chunks)
         {
             chunk.Load();
-        }  
+        }        
     }
-
-    public void Draw(Shader shader, ShadedMode shadedMode)
+    
+    public void Draw(Shader shader)
     {
         foreach (Chunk chunk in chunks)
         {
-            chunk.Draw(shader, shadedMode);
-        }
-    }
-
-    /*
-    public void ChunkReload(int x, int y, int z)
-    {
-        if (x >= 0 && x < xChunks &&
-            y >= 0 && y < yChunks &&
-            z >= 0 && z < zChunks)
-        {
-            chunks[x, y, z].Load();
-        }
-    }
-    */
-
-    public void ChunkReload(int x, int y, int z)
-    {
-        // ChunkReload(x, y, z);
-
-        if (x >= 0 && x < xChunks &&
-            y >= 0 && y < yChunks &&
-            z >= 0 && z < zChunks)
-        {
-            chunks[x, y, z].Load();
-
-            if (x > 0)
-            {
-                // ChunkReload(x - 1, y, z);
-                chunks[x - 1, y, z].Load();
-            }
-            if (y > 0)
-            {
-                // ChunkReload(x, y - 1, z);
-                chunks[x, y - 1, z].Load();
-            }
-            if (z > 0)
-            {
-                // ChunkReload(x, y, z - 1);
-                chunks[x, y, z - 1].Load();
-            }
-
-            if (x < xChunks - 1)
-            {
-                // ChunkReload(x + 1, y, z);
-                chunks[x + 1, y, z].Load();
-            }
-            if (y < yChunks - 1)
-            {
-                // ChunkReload(x, y + 1, z);
-                chunks[x, y + 1, z].Load();
-            }
-            if (z < zChunks - 1)
-            {
-                // ChunkReload(x, y, z + 1);
-                chunks[x, y, z + 1].Load();
-            }
-        }
+            chunk.Draw(shader);
+        }        
     }
     
     public void SetChunk(int x0, int y0, int z0, int x1, int y1, int z1)
@@ -169,7 +114,7 @@ public class Terrain
             {
                 for (int z = z0; z <= z1; z++)
                 {
-                    chunks[x, y, z].Load();
+                    chunks[(x + y * xChunks) * zChunks + z].Load();
                 }
             }
         }

@@ -4,33 +4,28 @@ out vec4 FragColor;
 in vec3 ourColor;
 in vec2 TexCoord;
 
-uniform bool hasWireframe;
 uniform bool hasColor;
 uniform bool hasTexture;
-uniform bool hasCustomColor;
+uniform bool hasUniformColor;
+
+uniform vec4 uniformColor;
 
 uniform sampler2D ourTexture;
 
-uniform vec4 uniformColor = vec4(1.0f);
-
 void main()
 {
-    FragColor = vec4(1.0f);
+    FragColor = vec4(1.0f, 1.0f, 1.0f, 1.0f);
 
-    if(hasWireframe)
-    {
-        FragColor *= vec4(0.0f);
-    }
     if(hasColor)
     {
-        FragColor *= vec4(ourColor, 1.0f);
+        FragColor *= vec4(ourColor.x, ourColor.y, ourColor.z, 1.0f);
     }
     if(hasTexture)
     {
         FragColor *= texture(ourTexture, TexCoord);
     }
-    if(hasCustomColor)
+    if(hasUniformColor)
     {
-        FragColor *= uniformColor;
+        FragColor *= vec4(uniformColor.x, uniformColor.y, uniformColor.z, uniformColor.w);
     }
-} 
+}

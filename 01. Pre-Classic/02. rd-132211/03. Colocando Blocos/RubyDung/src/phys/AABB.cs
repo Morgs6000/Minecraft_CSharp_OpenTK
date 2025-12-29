@@ -1,6 +1,6 @@
 using OpenTK.Mathematics;
 
-namespace RubyDung.phys;
+namespace RubyDung;
 
 /* Axis-Aligned Bounding Box */
 

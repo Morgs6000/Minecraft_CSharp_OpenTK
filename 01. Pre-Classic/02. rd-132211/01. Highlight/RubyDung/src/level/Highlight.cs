@@ -1,29 +1,27 @@
 using OpenTK.Graphics.OpenGL4;
 using OpenTK.Mathematics;
-using RubyDung.common;
 
-namespace RubyDung.level;
+namespace RubyDung;
 
 public class Highlight
 {
     private Level level;
     private Mesh mesh;
     private Camera camera;
-
-    private HitResult hitResult = null!;
-
+    private HitResult hitResult;
+    
     private Vector4 color;
 
     public Highlight(Level level, Camera camera)
     {
         this.level = level;
         this.camera = camera;
-
+        
         mesh = new Mesh();
 
         hitResult = new HitResult(0, 0, 0);
     }
-    
+
     public void Update()
     {
         if (Target())
@@ -35,13 +33,13 @@ public class Highlight
             mesh.Begin();
         }
     }
-    
-    public void Draw(Shader shader, ShadedMode shadedMode)
+
+    public void Draw(Shader shader)
     {
-        shader.SetBool("hasCustomColor", true);
+        shader.SetBool("hasUniformColor", true);
         shader.SetVector4("uniformColor", color);
 
-        mesh.Draw(shader, shadedMode);
+        mesh.Draw(shader);
     }
 
     private void RenderHit(HitResult h)
@@ -51,21 +49,23 @@ public class Highlight
         GL.Enable(EnableCap.Blend);
         GL.BlendFunc(BlendingFactor.SrcAlpha, BlendingFactor.OneMinusSrcAlpha);
 
-        // float alpha = (float)((Math.Sin(Environment.TickCount / 100.0f) * 0.2f + 0.4f) * 0.5f);
         float alpha = (float)(Math.Sin(Environment.TickCount / 100.0f) * 0.2f + 0.4f);
-
         color = new Vector4(1.0f, 1.0f, 1.0f, alpha);
-        // color = new Vector4(1.0f, 1.0f, 1.0f, 1.0f);
-
-        // Debug.Log($"alpha: {alpha:f1}");
 
         mesh.Begin();
-        Block.rock.LoadFace(mesh, h.x, h.y, h.z);
+
+        Block.rock.LoadFace(mesh, h.x, h.y, h.z, 0);
+        Block.rock.LoadFace(mesh, h.x, h.y, h.z, 1);
+        Block.rock.LoadFace(mesh, h.x, h.y, h.z, 2);
+        Block.rock.LoadFace(mesh, h.x, h.y, h.z, 3);
+        Block.rock.LoadFace(mesh, h.x, h.y, h.z, 4);
+        Block.rock.LoadFace(mesh, h.x, h.y, h.z, 5);
+
         mesh.End();
-        
+
         // GL.Disable(EnableCap.Blend);
     }
-
+    
     private bool Target()
     {
         // Posição e direção da camera
@@ -95,7 +95,7 @@ public class Highlight
         float deltaDistY = (rayDirection.Y == 0) ? float.MaxValue : (float)Math.Abs(1 / rayDirection.Y);
         float deltaDistZ = (rayDirection.Z == 0) ? float.MaxValue : (float)Math.Abs(1 / rayDirection.Z);
 
-        float perpWallDist;
+        // float perpWallDist;
         float sideDistX;
         float sideDistY;
         float sideDistZ;
@@ -140,7 +140,6 @@ public class Highlight
 
         // Algoritimo DDA
         bool hit = false;
-        int side = 0;
 
         while (!hit && (sideDistX <= maxDistance || sideDistY <= maxDistance || sideDistZ <= maxDistance))
         {
@@ -151,13 +150,11 @@ public class Highlight
                 {
                     sideDistX += deltaDistX;
                     mapX += stepX;
-                    side = 0;
                 }
                 else
                 {
                     sideDistZ += deltaDistZ;
                     mapZ += stepZ;
-                    side = 2;
                 }
             }
             else
@@ -166,13 +163,11 @@ public class Highlight
                 {
                     sideDistY += deltaDistY;
                     mapY += stepY;
-                    side = 1;
                 }
                 else
                 {
                     sideDistZ += deltaDistZ;
                     mapZ += stepZ;
-                    side = 2;
                 }
             }
 

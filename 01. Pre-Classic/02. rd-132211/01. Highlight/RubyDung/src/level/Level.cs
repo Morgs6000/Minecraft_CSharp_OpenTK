@@ -1,6 +1,4 @@
-using RubyDung.phys;
-
-namespace RubyDung.level;
+namespace RubyDung;
 
 public class Level
 {
@@ -8,7 +6,7 @@ public class Level
     public readonly int height;
     public readonly int depth;
 
-    private byte[,,] blocks;
+    private byte[] blocks;
 
     public Level(int w, int h, int d)
     {
@@ -16,7 +14,7 @@ public class Level
         height = h;
         depth = d;
 
-        blocks = new byte[w, h, d];
+        blocks = new byte[w * h * d];
 
         for (int x = 0; x < w; x++)
         {
@@ -24,7 +22,8 @@ public class Level
             {
                 for (int z = 0; z < d; z++)
                 {
-                    blocks[x, y, z] = (byte)(y <= h * 2 / 3 ? 1 : 0);
+                    int i = (x + y * width) * depth + z;
+                    blocks[i] = (byte)(y <= h * 2 / 3 ? 1 : 0);
                 }
             }
         }
@@ -33,13 +32,13 @@ public class Level
     public bool IsBlock(int x, int y, int z)
     {
         if (x >= 0 && x < width &&
-            y >= 0 && y < height &&
-            z >= 0 && z < depth)
+           y >= 0 && y < height &&
+           z >= 0 && z < depth)
         {
-            return blocks[x, y, z] == 1;
+            return blocks[(x + y * width) * depth + z] == 1;
         }
-        
-        return false;        
+
+        return false;
     }
 
     public bool IsSolidBlock(int x, int y, int z)
@@ -76,7 +75,7 @@ public class Level
         {
             x1 = this.width;
         }
-        if (y1 > this.height)        
+        if (y1 > this.height)
         {
             y1 = this.height;
         }
@@ -85,11 +84,11 @@ public class Level
             z1 = this.depth;
         }
 
-        for(int x = x0; x < x1; ++x)
+        for (int x = x0; x < x1; x++)
         {
-            for(int y = y0; y < y1; ++y)
+            for (int y = y0; y < y1; y++)
             {
-                for(int z = z0; z < z1; ++z)
+                for (int z = z0; z < z1; z++)
                 {
                     if (this.IsSolidBlock(x, y, z))
                     {

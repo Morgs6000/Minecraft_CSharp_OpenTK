@@ -25,10 +25,10 @@ public class Program
 
             nws.ClientSize = new Vector2i(1024, 768);
             nws.Title = "Game";
-            
+
             nws.StartVisible = false;
 
-            var strem = File.OpenRead("src/textures/opentklogo32x.png");
+            var strem = File.OpenRead("res/textures/opentklogo32x.png");
             var image = ImageResult.FromStream(strem, ColorComponents.RedGreenBlueAlpha);
             var icon = new WindowIcon(new Image(image.Width, image.Height, image.Data));
 

@@ -1,7 +1,7 @@
 using OpenTK.Mathematics;
-using RubyDung.common;
-using RubyDung.level;
-using RubyDung.phys;
+using OpenTK.Windowing.Common;
+using OpenTK.Windowing.Desktop;
+using OpenTK.Windowing.GraphicsLibraryFramework;
 
 namespace RubyDung;
 
@@ -9,12 +9,11 @@ public class Camera
 {
     private Level level;
     private AABB cameraBox = null!;
-    private GameMode gameMode;
 
-    private Vector3 Position = new Vector3(0.0f, 0.0f, 3.0f);
-    private Vector3 Front    = new Vector3(0.0f, 0.0f, -1.0f);
-    private Vector3 Up       = new Vector3(0.0f, 1.0f, 0.0f);
-    
+    private Vector3 Position;
+    private Vector3 Front;
+    private Vector3 Up;
+
     public Vector3 position
     {
         get
@@ -30,103 +29,53 @@ public class Camera
             return Front;
         }
     }
-    
-    private float MovementSpeed;
-    
-    private float walking      = 4.317f;
-    private float sprinting    = 5.612f;
-    private float sneaking     = 1.295f;
-    private float flying       = 10.79f;
-    private float sprintFlying = 21.58f;
 
-    private float falling      = 77.71f;
-    private float jumping      = 1.2522f;
+    private float Pitch;        // rotX // inclinação
+    private float Yaw = -90.0f; // rotY // guinada
+    // private float Roll;         // rotZ // rotação
+
+    private float MovementSpeed = 0.0f;
+    private float MouseSensitivity;
+
+    private float deltaTime = 0.0f;
+    private float lastFrame = 0.0f;
 
     private bool fistMouse = true;
-    private Vector2 last;
+    private Vector2 lastPos;
 
-    private float pitch;        // rotX // inclinação
-    private float yaw = -90.0f; // rotY // guinada
-    // private float roll;         // rotZ // rolamento
-
-    private float playerWidht = 0.6f;
-    
+    private float playerWidht = 0.6f;    
     private float playerHeight = 1.8f;
-    private float eyeHeight    = 1.62f;
-    
-    // Valores quando agachado
-    // private float SNEAKING_PLAYER_HEIGHT = 1.5f;
-    // private float SNEAKING_EYE_HEIGHT    = 1.32f;
-    
-    // Variável para armazenar a altura anterior (para ajuste suave)
-    // private float previousPlayerHeight;
-
-    private bool hasFly;
-    private bool hasCollision;
-    private bool hasGravity;
-    // private bool hasSneaking;
+    private float eyeHeight = 1.62f;
 
     private Vector3 velocity;
     private bool onGround;
+    
+    private float walking = 4.317f;
+    private float falling = 77.71f;
+    private float jumping = 1.2522f;
 
-    // Adicione essas variáveis para controle do delay
-    private float initializationTimer = 0.0f;
-    private const float INITIALIZATION_DELAY = 1.0f; // 0.5 segundos de delay
-    private bool isInitialized = false;
+    private float cameraStartDelay = 5.0f; // 3 segundos de delay
+    private float cameraDelayTimer = 0.0f;
+    private bool cameraEnabled = false;
 
     public Camera(Level level)
     {
         this.level = level;
 
+        Position = new Vector3(0.0f, 0.0f, 3.0f);
+        Front = new Vector3(0.0f, 0.0f, -1.0f);
+        Up = new Vector3(0.0f, 1.0f, 0.0f);
+
+        MovementSpeed = walking;
+        MouseSensitivity = 0.1f;
+
         ResetPos();
 
-        MovementSpeed = hasFly ? flying : walking;
-
-        // previousPlayerHeight = playerHeight;
-
-        gameMode = GameMode.Survival;
-        ProcessGameMode();
+        // Inicia com a câmera desabilitada
+        cameraEnabled = false;
+        cameraDelayTimer = cameraStartDelay;
     }
-
-    public void Update(bool hasPause)
-    {
-        // Delay de inicialização antes de processar qualquer coisa
-        if (!isInitialized)
-        {
-            initializationTimer += Time.deltaTime;
-            
-            if (initializationTimer >= INITIALIZATION_DELAY)
-            {
-                isInitialized = true;
-                // Não chama ResetPos() novamente para não alterar sua lógica
-            }
-            else
-            {
-                // Durante o delay, não processa nenhum input ou física
-                return;
-            }
-        }
-
-        if (hasPause)
-        {
-            fistMouse = true;
-        }
-        else
-        {
-            ProcessKeyboard();
-            ProcessMouse();
-
-            if (hasCollision)
-            {
-                ProcessCollision();
-            }
-            if (!hasFly && hasGravity)
-            {
-                ProcessGravity();
-            }
-        }
-    }
-
+    
     private void ResetPos()
     {
         Random random = new Random();
@@ -145,167 +94,123 @@ public class Camera
         Position = new Vector3(x, y, z);
     }
 
-    private void ProcessKeyboard()
-    {
-        ProcessMovement();
-        ProcessSprinting();
+    public void Update(GameWindow gameWindow)
+    {        
+        KeyboardState keyboardState = gameWindow.KeyboardState;
+        MouseState mouseState = gameWindow.MouseState;
 
-        if (hasFly)
+        // Atualiza o timer de delay
+        if (!cameraEnabled)
         {
-            ProcessFly();
-        }
-        else
-        {
-            ProcessJump();
-            ProcessSneaking();
+            cameraDelayTimer -= deltaTime;
+            if (cameraDelayTimer <= 0.0f)
+            {
+                cameraEnabled = true;
+                cameraDelayTimer = 0.0f;
+            }
+            
+            // Não processa inputs enquanto a câmera estiver desabilitada
+            ProcessTime();
+            return;
         }
 
-        // Debug.Log(MovementSpeed);
+        ProcessTime();
+        ProcessKeyboard(keyboardState);
+        
+        ProcessMouseMovement(mouseState);
+        gameWindow.CursorState = CursorState.Grabbed;
 
-        if (Input.GetKey(KeyCode.R))
+        ProcessCollision();
+        ProcessGravity();
+
+        if (keyboardState.IsKeyDown(Keys.R))
         {
             ResetPos();
         }
-        if (Input.GetKeyDouble(KeyCode.Space) && gameMode == GameMode.Creative)
-        {
-            ToggleFly();
-        }
     }
-    
-    private void ToggleFly()
+
+    private void ProcessTime()
     {
-        hasFly = !hasFly;
-        MovementSpeed = hasFly ? flying : walking;
-
-        // Debug.Log($"hasFly: {hasFly}");
+        float currentFrame = (float)GLFW.GetTime();
+        deltaTime = currentFrame - lastFrame;
+        lastFrame = currentFrame;
     }
 
-    private void ProcessMouse()
+    private void ProcessKeyboard(KeyboardState keyboardState)
     {
-        ProcessMouseMovement();
-        ProcessMouseScroll();
+        float speed = MovementSpeed * deltaTime;
+
+        if (keyboardState.IsKeyDown(Keys.W))
+        {
+            Position += speed * Vector3.Normalize(new Vector3(Front.X, 0.0f, Front.Z));
+        }
+        if (keyboardState.IsKeyDown(Keys.S))
+        {
+            Position -= speed * Vector3.Normalize(new Vector3(Front.X, 0.0f, Front.Z));
+        }
+        if (keyboardState.IsKeyDown(Keys.A))
+        {
+            Position -= speed * Vector3.Normalize(Vector3.Cross(Front, Up));
+        }
+        if (keyboardState.IsKeyDown(Keys.D))
+        {
+            Position += speed * Vector3.Normalize(Vector3.Cross(Front, Up));
+        }
+        if (keyboardState.IsKeyDown(Keys.Space) && onGround)
+        {
+            onGround = false;
+
+            velocity.Y = MathF.Sqrt(jumping * 2.0f * falling);
+        }  
     }
 
-    private void ProcessMovement()
-    {
-        float speed = MovementSpeed * Time.deltaTime;
-
-        float x = 0.0f;
-        float z = 0.0f;
-
-        if (Input.GetKey(KeyCode.W))
-        {
-            z++;
-        }
-        if (Input.GetKey(KeyCode.S))
-        {
-            z--;
-        }
-        if (Input.GetKey(KeyCode.D))
-        {
-            x++;
-        }
-        if (Input.GetKey(KeyCode.A))
-        {
-            x--;
-        }
-
-        Position += x * speed * Vector3.Normalize(Vector3.Cross(Front, Up));
-        Position += z * speed * Vector3.Normalize(new Vector3(Front.X, 0.0f, Front.Z));
-    }
-
-    private void ProcessFly()
-    {
-        float speed = MovementSpeed * Time.deltaTime;
-
-        float y = 0.0f;
-
-        if (Input.GetKey(KeyCode.Space))
-        {
-            y++;
-        }
-        if (Input.GetKey(KeyCode.LeftShift))
-        {
-            y--;
-        }
-
-        Position += y * speed * Up;
-    }
-
-    private void ProcessSprinting()
-    {
-        if (Input.GetKeyDouble(KeyCode.W))
-        {
-            MovementSpeed = hasFly ? sprintFlying : sprinting;
-        }
-        if (Input.GetKey(KeyCode.W))
-        {
-            if (Input.GetKey(KeyCode.LeftControl))
-            {
-                MovementSpeed = hasFly ? sprintFlying : sprinting;
-            }
-        }
-        if (Input.GetKeyUp(KeyCode.W))
-        {
-            MovementSpeed = hasFly ? flying : walking;
-        }
-
-        // Debug.Log(speed);
-    }
-
-    private void ProcessMouseMovement()
+    private void ProcessMouseMovement(MouseState mouseState)
     {
         if (fistMouse)
         {
-            last.X = Input.mousePosition.X;
-            last.Y = Input.mousePosition.Y;
+            lastPos.X = mouseState.Position.X;
+            lastPos.Y = mouseState.Position.Y;
 
             fistMouse = false;
         }
 
-        float xoffset = Input.mousePosition.X - last.X;
-        float yoffset = last.Y - Input.mousePosition.Y;
-        last.X = Input.mousePosition.X;
-        last.Y = Input.mousePosition.Y;
+        float xoffset = mouseState.Position.X - lastPos.X;
+        float yoffset = lastPos.Y - mouseState.Position.Y;
 
-        const float sensitivity = 0.1f;
-        xoffset *= sensitivity;
-        yoffset *= sensitivity;
+        lastPos.X = mouseState.Position.X;
+        lastPos.Y = mouseState.Position.Y;
 
-        yaw += xoffset;
-        pitch += yoffset;
+        xoffset *= MouseSensitivity;
+        yoffset *= MouseSensitivity;
 
-        Math.Clamp(pitch, -89.0f, 89.0f);
+        Yaw += xoffset;
+        Pitch += yoffset;
 
-        Vector3 direction;
-        direction.X = (float)(Math.Cos(MathHelper.DegreesToRadians(pitch)) * Math.Cos(MathHelper.DegreesToRadians(yaw)));
-        direction.Y = (float)(Math.Sin(MathHelper.DegreesToRadians(pitch)));
-        direction.Z = (float)(Math.Cos(MathHelper.DegreesToRadians(pitch)) * Math.Sin(MathHelper.DegreesToRadians(yaw)));
+        MathHelper.Clamp(Pitch, -89.0f, 89.0f);
 
-        Front = Vector3.Normalize(direction);
+        UpdateCameraVectors();
     }
 
-    private void ProcessMouseScroll()
+    private void UpdateCameraVectors()
     {
-        // Implementação do scroll do mouse (se necessário)
+        Vector3 front;
+        front.X = (float)(Math.Cos(MathHelper.DegreesToRadians(Pitch)) * Math.Cos(MathHelper.DegreesToRadians(Yaw)));
+        front.Y = (float)Math.Sin(MathHelper.DegreesToRadians(Pitch));
+        front.Z = (float)(Math.Cos(MathHelper.DegreesToRadians(Pitch)) * Math.Sin(MathHelper.DegreesToRadians(Yaw)));
+
+        Front = Vector3.Normalize(front);
     }
 
     private void ProcessCollision()
     {
         UpdateCameraBox();
-
-        // onGround = false;
         
         List<AABB> cubes = level.GetCubes(cameraBox);
 
         foreach (AABB cube in cubes)
         {
-            // AABB cube = new AABB(0.0f, 0.0f, 0.0f, 1.0f, 1.0f, 1.0f);
-
             if (cameraBox.Intersects(cube))
             {
-                // Debug.Log("Colisão detectada com bloco!");
-
                 Vector3 overlap = cameraBox.CalculateOverlap(cube);
 
                 if (overlap.X < overlap.Y && overlap.X < overlap.Z)
@@ -321,7 +226,6 @@ public class Camera
                     UpdateCameraBox();
 
                     onGround = true;
-                    // hasFly = false;
                 }
                 if (overlap.Z < overlap.X && overlap.Z < overlap.Y)
                 {
@@ -335,20 +239,9 @@ public class Camera
 
     private void UpdateCameraBox()
     {
-        /*
-        float x0 = Position.X - (playerWidht / 2.0f);
-        float y0 = Position.Y - (playerHeight / 2.0f);
-        float z0 = Position.Z - (playerWidht / 2.0f);
-
-        float x1 = Position.X + (playerWidht / 2.0f);
-        float y1 = Position.Y + (playerHeight / 2.0f);
-        float z1 = Position.Z + (playerWidht / 2.0f);
-        //*/
-
-        //*
         float x = Position.X;
-        float y = position.Y - eyeHeight;
-        float z = position.Z;
+        float y = Position.Y - eyeHeight;
+        float z = Position.Z;
 
         float w = (playerWidht / 2.0f);
         float h = (playerHeight / 2.0f);
@@ -360,10 +253,6 @@ public class Camera
         float x1 = x + w;
         float y1 = y + h;
         float z1 = z + w;
-        //*/
-
-        // Debug.Log($"{x0:f2}, {y0:f2}, {z0:f2}, {x1:f2}, {y1:f2}, {z1:f2}", true);
-        // Debug.Log($"{y0}, {y1}", true);
 
         cameraBox = new AABB(x0, y0, z0, x1, y1, z1);
     }
@@ -375,70 +264,8 @@ public class Camera
             velocity.Y = -2.0f;
         }
         
-        velocity.Y -= falling * Time.deltaTime;
-        Position += velocity * Time.deltaTime;
-        
-        // Debug.Log($"{Position.Y}", true);
-    }
-
-    private void ProcessJump()
-    {
-        if (Input.GetKey(KeyCode.Space) && onGround)
-        {
-            onGround = false;
-
-            velocity.Y = MathF.Sqrt(jumping * 2.0f * falling);
-        }        
-    }
-
-    private void ProcessSneaking()
-    {
-        if (Input.GetKey(KeyCode.LeftShift))
-        {
-            // hasSneaking = true;
-
-            MovementSpeed = sneaking;
-
-            // previousPlayerHeight = playerHeight;
-            // playerHeight = SNEAKING_PLAYER_HEIGHT;
-            // eyeHeight = SNEAKING_EYE_HEIGHT;
-        }
-        if (Input.GetKeyUp(KeyCode.LeftShift))
-        {
-            // hasSneaking = false;
-
-            MovementSpeed = walking;
-
-            // playerHeight = 1.8f;
-            // eyeHeight = 1.62f;
-        }
-    }
-
-    private void ProcessGameMode()
-    {
-        switch (gameMode)
-        {
-            case GameMode.Survival:
-                hasFly = false;
-                hasCollision = true;
-                hasGravity = true;
-                break;
-            case GameMode.Creative:
-                hasFly = false;
-                hasCollision = true;
-                hasGravity = true;
-                break;
-            case GameMode.Adventure:
-                hasFly = false;
-                hasCollision = true;
-                hasGravity = true;
-                break;
-            case GameMode.Spectator:
-                hasFly = true;
-                hasCollision = false;
-                hasGravity = false;
-                break;
-        }
+        velocity.Y -= falling * deltaTime;
+        Position += velocity * deltaTime;
     }
 
     public Matrix4 LookAt()
@@ -449,11 +276,11 @@ public class Camera
 
         return Matrix4.LookAt(eye, target, up);
     }
-
-    public Matrix4 CreatePerspectiveFieldOfView()
+    
+    public Matrix4 CreatePerspectiveFieldOfView(GameWindow gameWindow)
     {
         float fovy = MathHelper.DegreesToRadians(70.0f);
-        float aspect = (float)Screen.widht / (float)Screen.height;
+        float aspect = (float)gameWindow.ClientSize.X / (float)gameWindow.ClientSize.Y;
         float depthNear = 0.05f;
         float depthFar = 1000.0f;
 

@@ -1,3 +1,10 @@
+D:\Documentos\Github\Minecraft_CSharp_OpenTK\01. Pre-Classic\02. rd-132211\05. Publicando o Jogo\RubyDung\bin\Release\net9.0\osx-x64\res\icon.ico
+D:\Documentos\Github\Minecraft_CSharp_OpenTK\01. Pre-Classic\02. rd-132211\05. Publicando o Jogo\RubyDung\bin\Release\net9.0\osx-x64\res\shaders\default\fragment.glsl
+D:\Documentos\Github\Minecraft_CSharp_OpenTK\01. Pre-Classic\02. rd-132211\05. Publicando o Jogo\RubyDung\bin\Release\net9.0\osx-x64\res\shaders\default\vertex.glsl
+D:\Documentos\Github\Minecraft_CSharp_OpenTK\01. Pre-Classic\02. rd-132211\05. Publicando o Jogo\RubyDung\bin\Release\net9.0\osx-x64\res\textures\container.jpg
+D:\Documentos\Github\Minecraft_CSharp_OpenTK\01. Pre-Classic\02. rd-132211\05. Publicando o Jogo\RubyDung\bin\Release\net9.0\osx-x64\res\textures\opentklogo.png
+D:\Documentos\Github\Minecraft_CSharp_OpenTK\01. Pre-Classic\02. rd-132211\05. Publicando o Jogo\RubyDung\bin\Release\net9.0\osx-x64\res\textures\opentklogo32x.png
+D:\Documentos\Github\Minecraft_CSharp_OpenTK\01. Pre-Classic\02. rd-132211\05. Publicando o Jogo\RubyDung\bin\Release\net9.0\osx-x64\res\textures\terrain.png
 D:\Documentos\Github\Minecraft_CSharp_OpenTK\01. Pre-Classic\02. rd-132211\05. Publicando o Jogo\RubyDung\bin\Release\net9.0\osx-x64\RubyDung
 D:\Documentos\Github\Minecraft_CSharp_OpenTK\01. Pre-Classic\02. rd-132211\05. Publicando o Jogo\RubyDung\bin\Release\net9.0\osx-x64\RubyDung.deps.json
 D:\Documentos\Github\Minecraft_CSharp_OpenTK\01. Pre-Classic\02. rd-132211\05. Publicando o Jogo\RubyDung\bin\Release\net9.0\osx-x64\RubyDung.runtimeconfig.json
@@ -210,10 +217,3 @@ D:\Documentos\Github\Minecraft_CSharp_OpenTK\01. Pre-Classic\02. rd-132211\05. P
 D:\Documentos\Github\Minecraft_CSharp_OpenTK\01. Pre-Classic\02. rd-132211\05. Publicando o Jogo\RubyDung\obj\Release\net9.0\osx-x64\RubyDung.pdb
 D:\Documentos\Github\Minecraft_CSharp_OpenTK\01. Pre-Classic\02. rd-132211\05. Publicando o Jogo\RubyDung\obj\Release\net9.0\osx-x64\RubyDung.genruntimeconfig.cache
 D:\Documentos\Github\Minecraft_CSharp_OpenTK\01. Pre-Classic\02. rd-132211\05. Publicando o Jogo\RubyDung\obj\Release\net9.0\osx-x64\ref\RubyDung.dll
-D:\Documentos\Github\Minecraft_CSharp_OpenTK\01. Pre-Classic\02. rd-132211\05. Publicando o Jogo\RubyDung\bin\Release\net9.0\osx-x64\res\shaders\default\fragment.glsl
-D:\Documentos\Github\Minecraft_CSharp_OpenTK\01. Pre-Classic\02. rd-132211\05. Publicando o Jogo\RubyDung\bin\Release\net9.0\osx-x64\res\shaders\default\vertex.glsl
-D:\Documentos\Github\Minecraft_CSharp_OpenTK\01. Pre-Classic\02. rd-132211\05. Publicando o Jogo\RubyDung\bin\Release\net9.0\osx-x64\res\textures\container.jpg
-D:\Documentos\Github\Minecraft_CSharp_OpenTK\01. Pre-Classic\02. rd-132211\05. Publicando o Jogo\RubyDung\bin\Release\net9.0\osx-x64\res\textures\opentklogo.png
-D:\Documentos\Github\Minecraft_CSharp_OpenTK\01. Pre-Classic\02. rd-132211\05. Publicando o Jogo\RubyDung\bin\Release\net9.0\osx-x64\res\textures\opentklogo32x.png
-D:\Documentos\Github\Minecraft_CSharp_OpenTK\01. Pre-Classic\02. rd-132211\05. Publicando o Jogo\RubyDung\bin\Release\net9.0\osx-x64\res\textures\terrain.png
-D:\Documentos\Github\Minecraft_CSharp_OpenTK\01. Pre-Classic\02. rd-132211\05. Publicando o Jogo\RubyDung\bin\Release\net9.0\osx-x64\res\icon.ico

@@ -1,8 +1,6 @@
 using System.IO.Compression;
-using RubyDung.common;
-using RubyDung.phys;
 
-namespace RubyDung.level;
+namespace RubyDung;
 
 public class Level
 {
@@ -10,8 +8,7 @@ public class Level
     public readonly int height;
     public readonly int depth;
 
-    // private byte[] blocks;
-    private byte[,,] blocks;
+    private byte[] blocks;
 
     public Level(int w, int h, int d)
     {
@@ -19,8 +16,7 @@ public class Level
         height = h;
         depth = d;
 
-        // blocks = new byte[w * h * d];
-        blocks = new byte[w, h, d];
+        blocks = new byte[w * h * d];
 
         for (int x = 0; x < w; x++)
         {
@@ -28,9 +24,8 @@ public class Level
             {
                 for (int z = 0; z < d; z++)
                 {
-                    // int i = (x + y * width) * depth + z;
-                    // blocks[i] = (byte)(y <= h * 2 / 3 ? 1 : 0);
-                    blocks[x, y, z] = (byte)(y <= h * 2 / 3 ? 1 : 0);
+                    int i = (x + y * width) * depth + z;
+                    blocks[i] = (byte)(y <= h * 2 / 3 ? 1 : 0);
                 }
             }
         }
@@ -42,91 +37,48 @@ public class Level
     {
         try
         {
-            string filePath = "level.dat";
-
-            if (!File.Exists(filePath))
-            {
-                Debug.LogWarning("Arquivo level.dat não encontrado. Criando novo nível.");
-                return;
-            }
-            
-            using(FileStream fs = new FileStream(filePath, FileMode.Open))
-            using(GZipStream gzip = new GZipStream(fs, CompressionMode.Decompress))
+            using (FileStream fs = new FileStream("level.dat", FileMode.Open))
+            using (GZipStream gzip = new GZipStream(fs, CompressionMode.Decompress))
             using (BinaryReader dis = new BinaryReader(gzip))
             {
-                // dis.Read(blocks, 0, blocks.Length);
-
-                for (int x = 0; x < width; x++)
-                {
-                    for (int y = 0; y < height; y++)
-                    {
-                        for (int z = 0; z < depth; z++)
-                        {
-                            blocks[x, y, z] = dis.ReadByte();
-                        }
-                    }
-                }
-
+                dis.Read(blocks, 0, blocks.Length);
                 dis.Close();
-
-                Debug.LogSuccess("Nível carregado com sucesso!");
             }
         }
         catch (Exception e)
         {
-            Debug.LogError("Erro ao carregar nível: " + e.Message);
-            Debug.LogError(e.StackTrace);
-            throw;
+            Console.WriteLine(e.StackTrace);
         }
     }
-
+    
     public void Save()
     {
         try
         {
-            string filePath = "level.dat";
-
-            using (FileStream fs = new FileStream(filePath, FileMode.Create))
+            using (FileStream fs = new FileStream("level.dat", FileMode.Create))
             using (GZipStream gzip = new GZipStream(fs, CompressionMode.Compress))
             using (BinaryWriter dos = new BinaryWriter(gzip))
             {
-                // dos.Write(blocks);
-
-                for (int x = 0; x < width; x++)
-                {
-                    for (int y = 0; y < height; y++)
-                    {
-                        for (int z = 0; z < depth; z++)
-                        {
-                            dos.Write(blocks[x, y, z]);
-                        }
-                    }
-                }
-
+                dos.Write(blocks);
                 dos.Close();
-
-                Debug.LogSuccess("Nível salvo com sucesso!");
             }
         }
         catch (Exception e)
         {
-            Debug.LogError("Erro ao salvar nível: " + e.Message);
-            Debug.LogError(e.StackTrace);
-            throw;
+            Console.WriteLine(e.StackTrace);
         }
     }
 
     public bool IsBlock(int x, int y, int z)
     {
         if (x >= 0 && x < width &&
-            y >= 0 && y < height &&
-            z >= 0 && z < depth)
+           y >= 0 && y < height &&
+           z >= 0 && z < depth)
         {
-            // return blocks[(x + y * width) * depth + z] == 1;
-            return blocks[x, y, z] == 1;
+            return blocks[(x + y * width) * depth + z] == 1;
         }
-        
-        return false;        
+
+        return false;
     }
 
     public bool IsSolidBlock(int x, int y, int z)
@@ -172,11 +124,11 @@ public class Level
             z1 = this.depth;
         }
 
-        for (int x = x0; x < x1; ++x)
+        for (int x = x0; x < x1; x++)
         {
-            for (int y = y0; y < y1; ++y)
+            for (int y = y0; y < y1; y++)
             {
-                for (int z = z0; z < z1; ++z)
+                for (int z = z0; z < z1; z++)
                 {
                     if (this.IsSolidBlock(x, y, z))
                     {
@@ -198,8 +150,7 @@ public class Level
             y >= 0 && y < height &&
             z >= 0 && z < depth)
         {
-            // blocks[(x + y * width) * depth + z] = (byte)type;
-            blocks[x, y, z] = (byte)type;
+            blocks[(x + y * width) * depth + z] = (byte)type;
         }
     }
 }

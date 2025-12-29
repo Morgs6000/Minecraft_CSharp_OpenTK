@@ -1,6 +1,4 @@
-using RubyDung.common;
-
-namespace RubyDung.level;
+namespace RubyDung;
 
 public class Chunk
 {
@@ -40,19 +38,19 @@ public class Chunk
             {
                 for (int z = z0; z < z1; z++)
                 {
-                    if (level.IsBlock(x, y, z))
+                    if(level.IsBlock(x, y, z))
                     {
-                        int tex = y == level.height * 2 / 3 ? 1 : 0;
+                        int tex = y == level.height * 2 / 3 ? 0 : 1;
 
-                        if (tex == 1)
-                        {
-                            Block.grass.Load(mesh, level, x, y, z);
-                        }
-                        else
+                        if (tex == 0)
                         {
                             Block.rock.Load(mesh, level, x, y, z);
                         }
-                    }
+                        else
+                        {
+                            Block.grass.Load(mesh, level, x, y, z);
+                        }                        
+                    }                    
                 }
             }
         }       
@@ -60,8 +58,8 @@ public class Chunk
         mesh.End();
     }
     
-    public void Draw(Shader shader, ShadedMode shadedMode)
+    public void Draw(Shader shader)
     {
-        mesh.Draw(shader, shadedMode);
+        mesh.Draw(shader);
     }
 }

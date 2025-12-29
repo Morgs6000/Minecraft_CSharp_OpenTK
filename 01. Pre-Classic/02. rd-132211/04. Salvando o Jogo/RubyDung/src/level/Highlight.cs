@@ -1,18 +1,18 @@
 using OpenTK.Graphics.OpenGL4;
 using OpenTK.Mathematics;
-using RubyDung.common;
+using OpenTK.Windowing.Desktop;
+using OpenTK.Windowing.GraphicsLibraryFramework;
 
-namespace RubyDung.level;
+namespace RubyDung;
 
 public class Highlight
 {
     private Level level;
-    private Mesh mesh;
     private Terrain terrain;
-
+    private Mesh mesh;
     private Camera camera;
-    private HitResult hitResult = null!;
-
+    private HitResult hitResult;
+    
     private Vector4 color;
 
     public Highlight(Level level, Terrain terrain, Camera camera)
@@ -20,14 +20,16 @@ public class Highlight
         this.level = level;
         this.terrain = terrain;
         this.camera = camera;
-
+        
         mesh = new Mesh();
 
         hitResult = new HitResult(0, 0, 0, -1);
     }
-    
-    public void Update()
+
+    public void Update(GameWindow gameWindow)
     {
+        MouseState mouseState = gameWindow.MouseState;
+
         if (Target())
         {
             RenderHit(hitResult);
@@ -36,11 +38,11 @@ public class Highlight
             int y = hitResult.y;
             int z = hitResult.z;
 
-            if (Input.GetMouseButtonDown(1))
+            if (mouseState.IsButtonPressed(MouseButton.Right))
             {
                 SetBlock(x, y, z, 0);
             }
-            if (Input.GetMouseButtonDown(0))
+            if (mouseState.IsButtonPressed(MouseButton.Left))
             {   
                 if(hitResult.f == 0)
                 {
@@ -75,13 +77,13 @@ public class Highlight
             mesh.Begin();
         }
     }
-    
-    public void Draw(Shader shader, ShadedMode shadedMode)
+
+    public void Draw(Shader shader)
     {
-        shader.SetBool("hasCustomColor", true);
+        shader.SetBool("hasUniformColor", true);
         shader.SetVector4("uniformColor", color);
 
-        mesh.Draw(shader, shadedMode);
+        mesh.Draw(shader);
     }
 
     private void RenderHit(HitResult h)
@@ -91,21 +93,16 @@ public class Highlight
         GL.Enable(EnableCap.Blend);
         GL.BlendFunc(BlendingFactor.SrcAlpha, BlendingFactor.OneMinusSrcAlpha);
 
-        // float alpha = (float)((Math.Sin(Environment.TickCount / 100.0f) * 0.2f + 0.4f) * 0.5f);
         float alpha = (float)(Math.Sin(Environment.TickCount / 100.0f) * 0.2f + 0.4f);
-
         color = new Vector4(1.0f, 1.0f, 1.0f, alpha);
-        // color = new Vector4(1.0f, 1.0f, 1.0f, 1.0f);
-
-        // Debug.Log($"alpha: {alpha:f1}");
 
         mesh.Begin();
         Block.rock.LoadFace(mesh, h.x, h.y, h.z, h.f);
         mesh.End();
-        
+
         // GL.Disable(EnableCap.Blend);
     }
-
+    
     private bool Target()
     {
         // Posição e direção da camera
@@ -246,14 +243,6 @@ public class Highlight
     private void SetBlock(int x, int y, int z, int type)
     {
         level.SetBlock(x, y, z, type);
-
-        /*
-        int chunkX = x / 16;
-        int chunkY = y / 16;
-        int chunkZ = z / 16;
-
-        terrain.ChunkReload(chunkX, chunkY, chunkZ);
-        */
 
         int x0 = x - 1;
         int y0 = y - 1;

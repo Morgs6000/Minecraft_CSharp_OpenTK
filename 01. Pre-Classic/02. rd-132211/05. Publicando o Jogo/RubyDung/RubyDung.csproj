@@ -4,7 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>    
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <!-- Seus pacotes NuGet -->
@@ -32,11 +32,6 @@
     <Content Include="$(IconPath)">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    
-    <!-- Outros arquivos de configuração (opcional) -->
-    <!-- <None Update="appsettings.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None> -->
   </ItemGroup>
 
 </Project>
