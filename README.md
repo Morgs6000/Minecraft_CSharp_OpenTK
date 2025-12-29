@@ -40,7 +40,7 @@ E o instagram, só pra ter...
 * O jogador quando esta encostado em uma parede com mais de 2 blocos de altura e tenta pular, ele escala a parede.
 
 **rd-132211**
-* o icone de janela não aceita arquivo '.ico', e o icone do '.exe' não aceita arquivo '.png'.
+* O icone de janela não aceita arquivo '.ico', e o icone do '.exe' não aceita arquivo '.png'.
 
 **rd-132328**
 * Não sei gerar os Steve(s) doidos.
