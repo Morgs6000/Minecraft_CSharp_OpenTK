@@ -35,6 +35,11 @@ E o instagram, só pra ter...
 ## 🐞 Bugs
 
 **rd-131655 (Cave game tech test)**
+* O mouse do jogador é exibido movimento antes da tela carregar totalmente.
+* O jogador nasce abaixo do mundo por causa da gravidade.
+* Foi adicionado um delay de 5 segundo antes de dar os Updates da camera.
+* * para não ter que esperar pelo delay, se a tela ja apareceu para o jogador, basta dar um click com o mouse.
+* Jogador dando umas enroscadas no chão enquanto anda.
 * O jogador quando esta encostado em uma parede com mais de 2 blocos de altura e tenta pular, ele escala a parede.
 
 **rd-132211**
@@ -52,6 +57,8 @@ E o instagram, só pra ter...
 
 * Altura da camera corrigina.
 * Escalada aranha corrigida, mas se o jogador ficar pressionando Espaço contra uma parede, ainda consegue escalar.
+* Despausar nao faz mais com que o jogador caia para fora do mundo.
+* Despausar não faz mais a camera se mover instantaneamente em uma direção "aleatória".
 
 ## 💾 Versões
 
@@ -61,70 +68,76 @@ Todas as versões podem ser consultadas na Wiki do Minecraft. Abaixam estão lis
 
 Abaixo, links de acesso rapido as pastas que estão em progresso ou ja foram concluidas:
 
+**Legenda:**
+* 🟩 Concluido
+* 🟨 Iniciado e/ou Precisa de correções
+* 🟥 Não iniciado
+* ⁉️ Alguma versão que talvez não altere nada de util e eu vou remvoer da lista depois...
+
 ### Pré-Classico
 
-* [rd-131655 (Cave game tech test)](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/01.%20Pre-Classic/01.%20rd-131655%20(Cave%20game%20tech%20test))
-* [rd-132211](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/01.%20Pre-Classic/02.%20rd-132211)
-* [rd-132328](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/01.%20Pre-Classic/03.%20rd-132328)
-* [rd-160052](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/01.%20Pre-Classic/04.%20rd-160052)
-* [rd-161348](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/01.%20Pre-Classic/05.%20rd-160052)
+* 🟨 [rd-131655 (Cave game tech test)](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/01.%20Pre-Classic/01.%20rd-131655%20(Cave%20game%20tech%20test))
+* 🟨 [rd-132211](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/01.%20Pre-Classic/02.%20rd-132211)
+* 🟥 [rd-132328](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/01.%20Pre-Classic/03.%20rd-132328)
+* 🟨 [rd-160052](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/01.%20Pre-Classic/04.%20rd-160052)
+* 🟨 [rd-161348](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/01.%20Pre-Classic/05.%20rd-160052)
 
 ### Clássico
 
 **Classic | Private Alpha**
-* [0.0.2a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/01.%20Private%20Alpha/01.%200.0.2a)
-* 0.0.3a
-* [0.0.9a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/01.%20Private%20Alpha/02.%200.0.9a)
-* [0.0.10a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/01.%20Private%20Alpha/03.%200.0.10a)
+* 🟨 [0.0.2a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/01.%20Private%20Alpha/01.%200.0.2a)
+* ⁉️ 0.0.3a
+* 🟨 [0.0.9a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/01.%20Private%20Alpha/02.%200.0.9a)
+* 🟨 [0.0.10a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/01.%20Private%20Alpha/03.%200.0.10a)
 
 **Classic | Early Classic**
-* [0.0.12a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/02.%20Early%20Classic/01.%200.0.12a)
-* 0.0.12a_01
-* [0.0.13a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/02.%20Early%20Classic/02.%200.0.13a)
-* [0.0.13a_03](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/02.%20Early%20Classic/03.%200.0.13a_03)
-* [0.0.14a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/02.%20Early%20Classic/04.%200.0.14a)
-* [0.0.14a_04](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/02.%20Early%20Classic/05.%200.0.14a_04)
+* 🟥 [0.0.12a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/02.%20Early%20Classic/01.%200.0.12a)
+* ⁉️ 0.0.12a_01
+* 🟥 [0.0.13a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/02.%20Early%20Classic/02.%200.0.13a)
+* 🟥 [0.0.13a_03](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/02.%20Early%20Classic/03.%200.0.13a_03)
+* 🟥 [0.0.14a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/02.%20Early%20Classic/04.%200.0.14a)
+* 🟥 [0.0.14a_04](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/02.%20Early%20Classic/05.%200.0.14a_04)
 * 0.0.14a_08
 
 **Classic | Multiplayer Test**
-* [0.0.15a (Multiplayer Teste 1)](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/01.%200.0.15a%20(Multiplayer%20Test%201))
-* 0.0.15a (Multiplayer Teste 2)
-* [0.0.15a (Multiplayer Teste 4)](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/02.%200.0.15a%20(Multiplayer%20Test%204))
-* [0.0.15a (Multiplayer Teste 5)](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/03.%200.0.15a%20(Multiplayer%20Test%205))
-* [0.0.16a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/04.%200.0.16a)
-* 0.0.16a_01
-* 0.0.16a_02
-* [0.0.17a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/05.%200.0.17a)
-* [0.0.18a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/05.%200.0.17a)
-* 0.0.18a_02
-* [0.0.19a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/05.%200.0.17a)
-* 0.0.19a_01
-* 0.0.19a_02
-* [0.0.20a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/08.%200.0.20a)
-* 0.0.20a_01
-* 0.0.20a_02
-* 0.0.21a
-* [0.0.22a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/09.%200.0.22a)
-* 0.0.22a_01
-* 0.0.22a_05
-* [0.0.23a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/10.%200.0.23a)
-* 0.0.23a_01
+* 🟥 [0.0.15a (Multiplayer Teste 1)](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/01.%200.0.15a%20(Multiplayer%20Test%201))
+* ⁉️ 0.0.15a (Multiplayer Teste 2)
+* 🟥 [0.0.15a (Multiplayer Teste 4)](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/02.%200.0.15a%20(Multiplayer%20Test%204))
+* 🟥 [0.0.15a (Multiplayer Teste 5)](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/03.%200.0.15a%20(Multiplayer%20Test%205))
+* 🟥 [0.0.16a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/04.%200.0.16a)
+* ⁉️ 0.0.16a_01
+* ⁉️ 0.0.16a_02
+* 🟥 [0.0.17a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/05.%200.0.17a)
+* 🟥 [0.0.18a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/05.%200.0.17a)
+* ⁉️ 0.0.18a_02
+* 🟥 [0.0.19a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/05.%200.0.17a)
+* ⁉️ 0.0.19a_01
+* ⁉️ 0.0.19a_02
+* 🟥 [0.0.20a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/08.%200.0.20a)
+* ⁉️ 0.0.20a_01
+* ⁉️ 0.0.20a_02
+* ⁉️ 0.0.21a
+* 🟥 [0.0.22a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/09.%200.0.22a)
+* ⁉️ 0.0.22a_01
+* ⁉️ 0.0.22a_05
+* 🟥 [0.0.23a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/10.%200.0.23a)
+* ⁉️ 0.0.23a_01
 
 **Classic | Survival Test**
-* [0.24_SURVIVAL_TEST](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/10.%200.0.23a)
-* 0.25 SURVIVAL TEST
-* 0.25 SURVIVAL TEST 2
-* 0.25 SURVIVAL TEST 3
-* 0.25 SURVIVAL TEST 4
-* 0.25_05 SURVIVAL TEST
-* [0.26 SURVIVAL TEST](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/10.%200.0.23a)
-* 0.27 SURVIVAL TEST
+* 🟥 [0.24_SURVIVAL_TEST](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/10.%200.0.23a)
+* ⁉️ 0.25 SURVIVAL TEST
+* ⁉️ 0.25 SURVIVAL TEST 2
+* ⁉️ 0.25 SURVIVAL TEST 3
+* ⁉️ 0.25 SURVIVAL TEST 4
+* ⁉️ 0.25_05 SURVIVAL TEST
+* 🟥 [0.26 SURVIVAL TEST](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/10.%200.0.23a)
+* ⁉️ 0.27 SURVIVAL TEST
 
 **Classic | Late Classic**
-* [0.28](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/05.%20Late%20Classic/01.%200.28)
-* 0.29
-* 0.29_01
-* 0.30
+* 🟥 [0.28](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/05.%20Late%20Classic/01.%200.28)
+* ⁉️ 0.29
+* ⁉️ 0.29_01
+* ⁉️ 0.30
 
 ### Indev
 * Indev 0.31 20091223-0040
