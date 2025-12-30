@@ -68,9 +68,11 @@ Todas as versões podem ser consultadas na Wiki do Minecraft. Abaixam estão lis
 
 Abaixo, links de acesso rapido as pastas que estão em progresso ou ja foram concluidas:
 
-🟩 concluido
-🟨 Iniciado
-🟥 Não iniciado
+**Legenda:**
+* 🟩 Concluido
+* 🟨 Iniciado
+* 🟥 Não iniciado
+* ⁉️ Não faço ideia
 
 ### Pré-Classico
 
