@@ -65,6 +65,7 @@ E o instagram, só pra ter...
 * Escalada aranha corrigida, mas se o jogador ficar pressionando Espaço contra uma parede, ainda consegue escalar.
 * Despausar nao faz mais com que o jogador caia para fora do mundo.
 * Despausar não faz mais a camera se mover instantaneamente em uma direção "aleatória".
+* Corrigito crosshair. Um testador relatou que crosshair não acompanhava o redimensionamento de tela.
 
 ## 💾 Versões
 
