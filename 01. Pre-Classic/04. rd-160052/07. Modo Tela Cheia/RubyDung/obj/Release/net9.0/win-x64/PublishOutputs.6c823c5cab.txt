@@ -1,0 +1,10 @@
+D:\Documentos\Github\Minecraft_CSharp_OpenTK\01. Pre-Classic\04. rd-160052\07. Modo Tela Cheia\RubyDung\pub\win-x64\RubyDung.pdb
+D:\Documentos\Github\Minecraft_CSharp_OpenTK\01. Pre-Classic\04. rd-160052\07. Modo Tela Cheia\RubyDung\pub\win-x64\res\icon.ico
+D:\Documentos\Github\Minecraft_CSharp_OpenTK\01. Pre-Classic\04. rd-160052\07. Modo Tela Cheia\RubyDung\pub\win-x64\res\shaders\default\fragment.glsl
+D:\Documentos\Github\Minecraft_CSharp_OpenTK\01. Pre-Classic\04. rd-160052\07. Modo Tela Cheia\RubyDung\pub\win-x64\res\shaders\default\vertex.glsl
+D:\Documentos\Github\Minecraft_CSharp_OpenTK\01. Pre-Classic\04. rd-160052\07. Modo Tela Cheia\RubyDung\pub\win-x64\res\textures\container.jpg
+D:\Documentos\Github\Minecraft_CSharp_OpenTK\01. Pre-Classic\04. rd-160052\07. Modo Tela Cheia\RubyDung\pub\win-x64\res\textures\opentklogo.png
+D:\Documentos\Github\Minecraft_CSharp_OpenTK\01. Pre-Classic\04. rd-160052\07. Modo Tela Cheia\RubyDung\pub\win-x64\res\textures\opentklogo32x.png
+D:\Documentos\Github\Minecraft_CSharp_OpenTK\01. Pre-Classic\04. rd-160052\07. Modo Tela Cheia\RubyDung\pub\win-x64\res\textures\terrain.png
+D:\Documentos\Github\Minecraft_CSharp_OpenTK\01. Pre-Classic\04. rd-160052\07. Modo Tela Cheia\RubyDung\pub\win-x64\glfw3.dll
+D:\Documentos\Github\Minecraft_CSharp_OpenTK\01. Pre-Classic\04. rd-160052\07. Modo Tela Cheia\RubyDung\pub\win-x64\RubyDung.exe

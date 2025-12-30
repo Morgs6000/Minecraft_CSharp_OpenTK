@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "41DRPJulcoc=",
+  "dgSpecHash": "Ny6fL0s+xWM=",
   "success": true,
   "projectFilePath": "D:\\Documentos\\Github\\Minecraft_CSharp_OpenTK\\01. Pre-Classic\\02. rd-132211\\05. Publicando o Jogo\\RubyDung\\RubyDung.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Morgana Stradivarius\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.11\\microsoft.net.illink.tasks.9.0.11.nupkg.sha512",
     "C:\\Users\\Morgana Stradivarius\\.nuget\\packages\\opentk\\4.9.4\\opentk.4.9.4.nupkg.sha512",
     "C:\\Users\\Morgana Stradivarius\\.nuget\\packages\\opentk.audio.openal\\4.9.4\\opentk.audio.openal.4.9.4.nupkg.sha512",
     "C:\\Users\\Morgana Stradivarius\\.nuget\\packages\\opentk.compute\\4.9.4\\opentk.compute.4.9.4.nupkg.sha512",
@@ -16,7 +17,10 @@
     "C:\\Users\\Morgana Stradivarius\\.nuget\\packages\\opentk.windowing.desktop\\4.9.4\\opentk.windowing.desktop.4.9.4.nupkg.sha512",
     "C:\\Users\\Morgana Stradivarius\\.nuget\\packages\\opentk.windowing.graphicslibraryframework\\4.9.4\\opentk.windowing.graphicslibraryframework.4.9.4.nupkg.sha512",
     "C:\\Users\\Morgana Stradivarius\\.nuget\\packages\\stbimagesharp\\2.30.15\\stbimagesharp.2.30.15.nupkg.sha512",
-    "C:\\Users\\Morgana Stradivarius\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\Morgana Stradivarius\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Morgana Stradivarius\\.nuget\\packages\\microsoft.netcore.app.runtime.osx-x64\\9.0.11\\microsoft.netcore.app.runtime.osx-x64.9.0.11.nupkg.sha512",
+    "C:\\Users\\Morgana Stradivarius\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.osx-x64\\9.0.11\\microsoft.aspnetcore.app.runtime.osx-x64.9.0.11.nupkg.sha512",
+    "C:\\Users\\Morgana Stradivarius\\.nuget\\packages\\microsoft.netcore.app.host.osx-x64\\9.0.11\\microsoft.netcore.app.host.osx-x64.9.0.11.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,0 +1,14 @@
+D:\Documentos\Github\Minecraft_CSharp_OpenTK\02. Classic\01. Private Alpha\04. 0.0.10a\02\Minecraft\pub\win-x64\Minecraft.pdb
+D:\Documentos\Github\Minecraft_CSharp_OpenTK\02. Classic\01. Private Alpha\04. 0.0.10a\02\Minecraft\pub\win-x64\res\csharplogo.ico
+D:\Documentos\Github\Minecraft_CSharp_OpenTK\02. Classic\01. Private Alpha\04. 0.0.10a\02\Minecraft\pub\win-x64\res\opentklogo.ico
+D:\Documentos\Github\Minecraft_CSharp_OpenTK\02. Classic\01. Private Alpha\04. 0.0.10a\02\Minecraft\pub\win-x64\res\shaders\default\fragment.glsl
+D:\Documentos\Github\Minecraft_CSharp_OpenTK\02. Classic\01. Private Alpha\04. 0.0.10a\02\Minecraft\pub\win-x64\res\shaders\default\vertex.glsl
+D:\Documentos\Github\Minecraft_CSharp_OpenTK\02. Classic\01. Private Alpha\04. 0.0.10a\02\Minecraft\pub\win-x64\res\textures\container.jpg
+D:\Documentos\Github\Minecraft_CSharp_OpenTK\02. Classic\01. Private Alpha\04. 0.0.10a\02\Minecraft\pub\win-x64\res\textures\csharplogo.png
+D:\Documentos\Github\Minecraft_CSharp_OpenTK\02. Classic\01. Private Alpha\04. 0.0.10a\02\Minecraft\pub\win-x64\res\textures\csharplogo32x.png
+D:\Documentos\Github\Minecraft_CSharp_OpenTK\02. Classic\01. Private Alpha\04. 0.0.10a\02\Minecraft\pub\win-x64\res\textures\default.gif
+D:\Documentos\Github\Minecraft_CSharp_OpenTK\02. Classic\01. Private Alpha\04. 0.0.10a\02\Minecraft\pub\win-x64\res\textures\opentklogo.png
+D:\Documentos\Github\Minecraft_CSharp_OpenTK\02. Classic\01. Private Alpha\04. 0.0.10a\02\Minecraft\pub\win-x64\res\textures\opentklogo32x.png
+D:\Documentos\Github\Minecraft_CSharp_OpenTK\02. Classic\01. Private Alpha\04. 0.0.10a\02\Minecraft\pub\win-x64\res\textures\terrain.png
+D:\Documentos\Github\Minecraft_CSharp_OpenTK\02. Classic\01. Private Alpha\04. 0.0.10a\02\Minecraft\pub\win-x64\glfw3.dll
+D:\Documentos\Github\Minecraft_CSharp_OpenTK\02. Classic\01. Private Alpha\04. 0.0.10a\02\Minecraft\pub\win-x64\Minecraft.exe
