@@ -10,6 +10,10 @@ Então para de reclamar que tem um monte de pasta, procura a p@#$% da pasta que 
 
 Este projeto tem como objetivo recriar as primeiras versões do Minecraft, sem engine, usando a linguagem C# e a blioteca OpenTK.
 
+Baixe os executaveis do projeto neste link:
+
+* 🎮 [Versões](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/releases/tag/Teste)
+
 Quem quiser ajudar com o projeto seja bem-vindo a se juntar a nós no Discord:
 
   * <img src="https://github.com/user-attachments/assets/fe0fedfb-5be2-4ccd-bf54-f61446301e84" width="15" height="15"> [Discord](https://discord.gg/2NHGc8PHmq)
