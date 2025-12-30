@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documentos\\Github\\Minecraft_CSharp_OpenTK\\01. Pre-Classic\\05. rd-160052\\03a\\RubyDung\\RubyDung.csproj": {}
+    "D:\\Documentos\\Github\\Minecraft_CSharp_OpenTK\\01. Pre-Classic\\05. rd-160052\\04. Correção altura da camera e escalada aranha\\RubyDung\\RubyDung.csproj": {}
   },
   "projects": {
-    "D:\\Documentos\\Github\\Minecraft_CSharp_OpenTK\\01. Pre-Classic\\05. rd-160052\\03a\\RubyDung\\RubyDung.csproj": {
+    "D:\\Documentos\\Github\\Minecraft_CSharp_OpenTK\\01. Pre-Classic\\05. rd-160052\\04. Correção altura da camera e escalada aranha\\RubyDung\\RubyDung.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documentos\\Github\\Minecraft_CSharp_OpenTK\\01. Pre-Classic\\05. rd-160052\\03a\\RubyDung\\RubyDung.csproj",
+        "projectUniqueName": "D:\\Documentos\\Github\\Minecraft_CSharp_OpenTK\\01. Pre-Classic\\05. rd-160052\\04. Correção altura da camera e escalada aranha\\RubyDung\\RubyDung.csproj",
         "projectName": "RubyDung",
-        "projectPath": "D:\\Documentos\\Github\\Minecraft_CSharp_OpenTK\\01. Pre-Classic\\05. rd-160052\\03a\\RubyDung\\RubyDung.csproj",
+        "projectPath": "D:\\Documentos\\Github\\Minecraft_CSharp_OpenTK\\01. Pre-Classic\\05. rd-160052\\04. Correção altura da camera e escalada aranha\\RubyDung\\RubyDung.csproj",
         "packagesPath": "C:\\Users\\Morgana Stradivarius\\.nuget\\packages\\",
-        "outputPath": "D:\\Documentos\\Github\\Minecraft_CSharp_OpenTK\\01. Pre-Classic\\05. rd-160052\\03a\\RubyDung\\obj\\",
+        "outputPath": "D:\\Documentos\\Github\\Minecraft_CSharp_OpenTK\\01. Pre-Classic\\05. rd-160052\\04. Correção altura da camera e escalada aranha\\RubyDung\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,12 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.11, )",
+              "autoReferenced": true
+            },
             "OpenTK": {
               "target": "Package",
               "version": "[4.9.4, )"
@@ -70,12 +76,31 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.osx-x64",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.osx-x64",
+              "version": "[9.0.11, 9.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "osx-x64": {
+          "#import": []
         }
       }
     }

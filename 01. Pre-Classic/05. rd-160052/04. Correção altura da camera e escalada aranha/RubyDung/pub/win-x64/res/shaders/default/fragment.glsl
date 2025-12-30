@@ -22,7 +22,13 @@ void main()
     }
     if(hasTexture)
     {
-        FragColor *= texture(ourTexture, TexCoord);
+        vec4 texColor = texture(ourTexture, TexCoord);
+        if(texColor.a < 0.1f)
+        {
+            discard;
+        }
+
+        FragColor *= texColor;
     }
     if(hasUniformColor)
     {
