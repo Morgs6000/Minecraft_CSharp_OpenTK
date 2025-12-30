@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GuTXQGe62o4=",
+  "dgSpecHash": "o+9m5mY1GL0=",
   "success": true,
-  "projectFilePath": "D:\\Documentos\\Github\\Minecraft_CSharp_OpenTK\\02. Classic\\01. Private Alpha\\03. 0.0.10a\\01. Desconectar o Mouse\\Minecraft\\Minecraft.csproj",
+  "projectFilePath": "D:\\Documentos\\Github\\Minecraft_CSharp_OpenTK\\02. Classic\\01. Private Alpha\\04. 0.0.10a\\01. Desconectar o Mouse\\Minecraft\\Minecraft.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Morgana Stradivarius\\.nuget\\packages\\opentk\\4.9.4\\opentk.4.9.4.nupkg.sha512",
     "C:\\Users\\Morgana Stradivarius\\.nuget\\packages\\opentk.audio.openal\\4.9.4\\opentk.audio.openal.4.9.4.nupkg.sha512",

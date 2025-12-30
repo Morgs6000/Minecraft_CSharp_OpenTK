@@ -23,72 +23,8 @@ public class Level
 
         if (!mapLoaded)
         {
-            GenerateMap();
+            blocks = new LevelGen(w, h, d).GenerateMap();
         }        
-    }
-    
-    private void GenerateMap()
-    {
-        int w = width;
-        int h = height;
-        int d = depth;
-
-        int[] heightmap1 = new PerlinNoise(0).Read(w, d);
-        int[] heightmap2 = new PerlinNoise(0).Read(w, d);
-        int[] cf = new PerlinNoise(1).Read(w, d);
-        int[] rockMap = new PerlinNoise(1).Read(w, d);
-
-        for (int x = 0; x < w; x++)
-        {
-            for (int y = 0; y < h; y++)
-            {
-                for (int z = 0; z < d; z++)
-                {
-                    int dh1 = heightmap1[x + z * this.width];
-                    int dh2 = heightmap2[x + z * this.width];
-                    int cfh = cf[x + z * this.width];
-                    
-                    if (cfh < 128)
-                    {
-                        dh2 = dh1;
-                    }
-
-                    int dh = dh1;
-                    if (dh2 > dh1)
-                    {
-                        dh = dh2;
-                    }
-
-                    dh = dh / 8 + h / 3;
-                    int rh = rockMap[x + z * this.width] / 8 + h / 3;
-                    
-                    if (rh > dh - 2)
-                    {
-                        rh = dh - 2;
-                    }
-
-                    int i = (x + y * width) * depth + z;
-                    int id = 0;
-                    
-                    if (y == dh)
-                    {
-                        id = Block.grass.id;
-                    }
-
-                    if (y < dh)
-                    {
-                        id = Block.dirt.id;
-                    }
-
-                    if (y <= rh)
-                    {
-                        id = Block.rock.id;
-                    }
-
-                    this.blocks[i] = (byte)id;
-                }
-            }
-        }
     }
 
     public bool Load()

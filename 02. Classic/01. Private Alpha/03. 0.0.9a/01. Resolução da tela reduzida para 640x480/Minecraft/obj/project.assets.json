@@ -452,11 +452,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documentos\\Github\\Minecraft_CSharp_OpenTK\\02. Classic\\01. Private Alpha\\02. 0.0.9a\\01. Resolução da tela reduzida para 640x480\\Minecraft\\Minecraft.csproj",
+      "projectUniqueName": "D:\\Documentos\\Github\\Minecraft_CSharp_OpenTK\\02. Classic\\01. Private Alpha\\03. 0.0.9a\\01. Resolução da tela reduzida para 640x480\\Minecraft\\Minecraft.csproj",
       "projectName": "Minecraft",
-      "projectPath": "D:\\Documentos\\Github\\Minecraft_CSharp_OpenTK\\02. Classic\\01. Private Alpha\\02. 0.0.9a\\01. Resolução da tela reduzida para 640x480\\Minecraft\\Minecraft.csproj",
+      "projectPath": "D:\\Documentos\\Github\\Minecraft_CSharp_OpenTK\\02. Classic\\01. Private Alpha\\03. 0.0.9a\\01. Resolução da tela reduzida para 640x480\\Minecraft\\Minecraft.csproj",
       "packagesPath": "C:\\Users\\Morgana Stradivarius\\.nuget\\packages\\",
-      "outputPath": "D:\\Documentos\\Github\\Minecraft_CSharp_OpenTK\\02. Classic\\01. Private Alpha\\02. 0.0.9a\\01. Resolução da tela reduzida para 640x480\\Minecraft\\obj\\",
+      "outputPath": "D:\\Documentos\\Github\\Minecraft_CSharp_OpenTK\\02. Classic\\01. Private Alpha\\03. 0.0.9a\\01. Resolução da tela reduzida para 640x480\\Minecraft\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

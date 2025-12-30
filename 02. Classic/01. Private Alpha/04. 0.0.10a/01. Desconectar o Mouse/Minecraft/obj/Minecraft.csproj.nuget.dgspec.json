@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documentos\\Github\\Minecraft_CSharp_OpenTK\\02. Classic\\01. Private Alpha\\03. 0.0.10a\\01. Desconectar o Mouse\\Minecraft\\Minecraft.csproj": {}
+    "D:\\Documentos\\Github\\Minecraft_CSharp_OpenTK\\02. Classic\\01. Private Alpha\\04. 0.0.10a\\01. Desconectar o Mouse\\Minecraft\\Minecraft.csproj": {}
   },
   "projects": {
-    "D:\\Documentos\\Github\\Minecraft_CSharp_OpenTK\\02. Classic\\01. Private Alpha\\03. 0.0.10a\\01. Desconectar o Mouse\\Minecraft\\Minecraft.csproj": {
+    "D:\\Documentos\\Github\\Minecraft_CSharp_OpenTK\\02. Classic\\01. Private Alpha\\04. 0.0.10a\\01. Desconectar o Mouse\\Minecraft\\Minecraft.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documentos\\Github\\Minecraft_CSharp_OpenTK\\02. Classic\\01. Private Alpha\\03. 0.0.10a\\01. Desconectar o Mouse\\Minecraft\\Minecraft.csproj",
+        "projectUniqueName": "D:\\Documentos\\Github\\Minecraft_CSharp_OpenTK\\02. Classic\\01. Private Alpha\\04. 0.0.10a\\01. Desconectar o Mouse\\Minecraft\\Minecraft.csproj",
         "projectName": "Minecraft",
-        "projectPath": "D:\\Documentos\\Github\\Minecraft_CSharp_OpenTK\\02. Classic\\01. Private Alpha\\03. 0.0.10a\\01. Desconectar o Mouse\\Minecraft\\Minecraft.csproj",
+        "projectPath": "D:\\Documentos\\Github\\Minecraft_CSharp_OpenTK\\02. Classic\\01. Private Alpha\\04. 0.0.10a\\01. Desconectar o Mouse\\Minecraft\\Minecraft.csproj",
         "packagesPath": "C:\\Users\\Morgana Stradivarius\\.nuget\\packages\\",
-        "outputPath": "D:\\Documentos\\Github\\Minecraft_CSharp_OpenTK\\02. Classic\\01. Private Alpha\\03. 0.0.10a\\01. Desconectar o Mouse\\Minecraft\\obj\\",
+        "outputPath": "D:\\Documentos\\Github\\Minecraft_CSharp_OpenTK\\02. Classic\\01. Private Alpha\\04. 0.0.10a\\01. Desconectar o Mouse\\Minecraft\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
