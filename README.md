@@ -76,68 +76,68 @@ Abaixo, links de acesso rapido as pastas que estão em progresso ou ja foram con
 
 ### Pré-Classico
 
-* 🟨 [rd-131655 (Cave game tech test)](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/01.%20Pre-Classic/01.%20rd-131655%20(Cave%20game%20tech%20test))
-* 🟨 [rd-132211](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/01.%20Pre-Classic/02.%20rd-132211)
-* 🟥 [rd-132328](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/01.%20Pre-Classic/03.%20rd-132328)
-* 🟨 [rd-160052](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/01.%20Pre-Classic/04.%20rd-160052)
-* 🟨 [rd-161348](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/01.%20Pre-Classic/05.%20rd-160052)
+* 🟨 [rd-131655 (Cave game tech test)](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/01.%20Pre-Classic/01.%20rd-131655%20(Cave%20game%20tech%20test)) >> [wiki](https://minecraft.wiki/w/Cave_game_tech_test)
+* 🟨 [rd-132211](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/01.%20Pre-Classic/02.%20rd-132211) >> [wiki](https://minecraft.wiki/w/Java_Edition_pre-Classic_rd-132211)
+* 🟥 [rd-132328](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/01.%20Pre-Classic/03.%20rd-132328) >> [wiki](https://minecraft.wiki/w/Java_Edition_pre-Classic_rd-132328)
+* 🟨 [rd-160052](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/01.%20Pre-Classic/04.%20rd-160052) >> [wiki¹](https://minecraft.wiki/w/Java_Edition_pre-Classic_rd-20090515) - [wiki²](https://minecraft.wiki/w/Java_Edition_pre-Classic_rd-160052)
+* 🟨 [rd-161348](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/01.%20Pre-Classic/05.%20rd-160052) >> [wiki](https://minecraft.wiki/w/Java_Edition_pre-Classic_rd-161348)
 
 ### Clássico
 
 **Classic | Private Alpha**
-* 🟨 [0.0.2a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/01.%20Private%20Alpha/01.%200.0.2a)
-* ⁉️ 0.0.3a
-* 🟨 [0.0.9a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/01.%20Private%20Alpha/02.%200.0.9a)
-* 🟨 [0.0.10a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/01.%20Private%20Alpha/03.%200.0.10a)
+* 🟨 [0.0.2a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/01.%20Private%20Alpha/01.%200.0.2a) >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.0.2a)
+* 🟨 [0.0.3a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/01.%20Private%20Alpha/02.%200.0.3a) >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.0.3a)
+* 🟨 [0.0.9a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/01.%20Private%20Alpha/02.%200.0.9a) >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.0.9a)
+* 🟨 [0.0.10a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/01.%20Private%20Alpha/03.%200.0.10a) >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.0.10a)
 
 **Classic | Early Classic**
-* 🟥 [0.0.12a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/02.%20Early%20Classic/01.%200.0.12a)
-* ⁉️ 0.0.12a_01
-* 🟥 [0.0.13a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/02.%20Early%20Classic/02.%200.0.13a)
-* 🟥 [0.0.13a_03](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/02.%20Early%20Classic/03.%200.0.13a_03)
-* 🟥 [0.0.14a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/02.%20Early%20Classic/04.%200.0.14a)
-* 🟥 [0.0.14a_04](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/02.%20Early%20Classic/05.%200.0.14a_04)
-* 0.0.14a_08
+* 🟥 [0.0.12a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/02.%20Early%20Classic/01.%200.0.12a) >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.0.12a)
+* ⁉️ 0.0.12a_01 >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.0.12a_01)
+* 🟥 [0.0.13a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/02.%20Early%20Classic/02.%200.0.13a) >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.0.13a)
+* 🟥 [0.0.13a_03](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/02.%20Early%20Classic/03.%200.0.13a_03) >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.0.13a_03)
+* 🟥 [0.0.14a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/02.%20Early%20Classic/04.%200.0.14a) >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.0.14a)
+* 🟥 [0.0.14a_04](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/02.%20Early%20Classic/05.%200.0.14a_04) >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.0.14a_04)
+* ⁉️ 0.0.14a_08 >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.0.14a_08)
 
 **Classic | Multiplayer Test**
-* 🟥 [0.0.15a (Multiplayer Teste 1)](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/01.%200.0.15a%20(Multiplayer%20Test%201))
-* ⁉️ 0.0.15a (Multiplayer Teste 2)
-* 🟥 [0.0.15a (Multiplayer Teste 4)](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/02.%200.0.15a%20(Multiplayer%20Test%204))
-* 🟥 [0.0.15a (Multiplayer Teste 5)](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/03.%200.0.15a%20(Multiplayer%20Test%205))
-* 🟥 [0.0.16a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/04.%200.0.16a)
-* ⁉️ 0.0.16a_01
-* ⁉️ 0.0.16a_02
-* 🟥 [0.0.17a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/05.%200.0.17a)
-* 🟥 [0.0.18a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/05.%200.0.17a)
-* ⁉️ 0.0.18a_02
-* 🟥 [0.0.19a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/05.%200.0.17a)
-* ⁉️ 0.0.19a_01
-* ⁉️ 0.0.19a_02
-* 🟥 [0.0.20a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/08.%200.0.20a)
-* ⁉️ 0.0.20a_01
-* ⁉️ 0.0.20a_02
-* ⁉️ 0.0.21a
-* 🟥 [0.0.22a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/09.%200.0.22a)
-* ⁉️ 0.0.22a_01
-* ⁉️ 0.0.22a_05
-* 🟥 [0.0.23a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/10.%200.0.23a)
-* ⁉️ 0.0.23a_01
+* 🟥 [0.0.15a (Multiplayer Teste 1)](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/01.%200.0.15a%20(Multiplayer%20Test%201)) >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.0.15a_(Multiplayer_Test_1))
+* ⁉️ 0.0.15a (Multiplayer Teste 2) >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.0.15a_(Multiplayer_Test_2))
+* 🟥 [0.0.15a (Multiplayer Teste 4)](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/02.%200.0.15a%20(Multiplayer%20Test%204)) >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.0.15a_(Multiplayer_Test_4))
+* 🟥 [0.0.15a (Multiplayer Teste 5)](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/03.%200.0.15a%20(Multiplayer%20Test%205)) >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.0.15a_(Multiplayer_Test_5))
+* 🟥 [0.0.16a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/04.%200.0.16a) >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.0.16a)
+* ⁉️ 0.0.16a_01 >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.0.16a_01)
+* ⁉️ 0.0.16a_02 >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.0.16a_02)
+* 🟥 [0.0.17a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/05.%200.0.17a) >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.0.17a)
+* 🟥 [0.0.18a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/05.%200.0.17a) >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.0.18a)
+* ⁉️ 0.0.18a_02 >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.0.18a_02)
+* 🟥 [0.0.19a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/05.%200.0.17a) >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.0.19a)
+* ⁉️ 0.0.19a_01 >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.0.19a_01)
+* ⁉️ 0.0.19a_02 >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.0.19a_02)
+* 🟥 [0.0.20a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/08.%200.0.20a) >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.0.20a)
+* ⁉️ 0.0.20a_01 >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.0.20a_01)
+* ⁉️ 0.0.20a_02 >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.0.20a_02)
+* ⁉️ 0.0.21a >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.0.21a)
+* 🟥 [0.0.22a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/09.%200.0.22a) >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.0.22a)
+* ⁉️ 0.0.22a_01 >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.0.22a_01)
+* ⁉️ 0.0.22a_05 >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.0.22a_05)
+* 🟥 [0.0.23a](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/10.%200.0.23a) >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.0.23a)
+* ⁉️ 0.0.23a_01 >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.0.23a_01)
 
 **Classic | Survival Test**
-* 🟥 [0.24_SURVIVAL_TEST](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/10.%200.0.23a)
-* ⁉️ 0.25 SURVIVAL TEST
-* ⁉️ 0.25 SURVIVAL TEST 2
-* ⁉️ 0.25 SURVIVAL TEST 3
-* ⁉️ 0.25 SURVIVAL TEST 4
-* ⁉️ 0.25_05 SURVIVAL TEST
-* 🟥 [0.26 SURVIVAL TEST](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/10.%200.0.23a)
-* ⁉️ 0.27 SURVIVAL TEST
+* 🟥 [0.24_SURVIVAL_TEST](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/10.%200.0.23a) >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.24_SURVIVAL_TEST)
+* ⁉️ 0.25 SURVIVAL TEST >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.25_SURVIVAL_TEST)
+* ⁉️ 0.25 SURVIVAL TEST 2 >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.25_SURVIVAL_TEST_2)
+* ⁉️ 0.25 SURVIVAL TEST 3 >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.25_SURVIVAL_TEST_3)
+* ⁉️ 0.25 SURVIVAL TEST 4 >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.25_SURVIVAL_TEST_4)
+* ⁉️ 0.25_05 SURVIVAL TEST >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.25_05_SURVIVAL_TEST)
+* 🟥 [0.26 SURVIVAL TEST](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/03.%20Multiplayer%20Test/10.%200.0.23a) >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.26_SURVIVAL_TEST)
+* ⁉️ 0.27 SURVIVAL TEST >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.27_SURVIVAL_TEST)
 
 **Classic | Late Classic**
-* 🟥 [0.28](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/05.%20Late%20Classic/01.%200.28)
-* ⁉️ 0.29
-* ⁉️ 0.29_01
-* ⁉️ 0.30
+* 🟥 [0.28](https://github.com/Morgs6000/Minecraft_CSharp_OpenTK/tree/main/02.%20Classic/05.%20Late%20Classic/01.%200.28) >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.28)
+* ⁉️ 0.29 >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.29)
+* ⁉️ 0.29_01 >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.29_01)
+* ⁉️ 0.30 >> [wiki](https://minecraft.wiki/w/Java_Edition_Classic_0.30)
 
 ### Indev
 * Indev 0.31 20091223-0040
