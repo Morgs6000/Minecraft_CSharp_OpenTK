@@ -6,7 +6,7 @@ Para de reclamar que tem um monte de pasta, procura a p@#$% da pasta que você q
 
 ## 📖 Sobre
 
-Este projeto tem como objetivo recriar as primeiras versões do Minecraft usando a linguagem C# e a blioteca OpenTK.
+Este projeto tem como objetivo recriar as primeiras versões do Minecraft, sem engine, usando a linguagem C# e a blioteca OpenTK.
 
 Quem quiser ajudar com o projeto seja bem-vindo a se juntar a nós no Discord:
 
