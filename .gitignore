@@ -1,1 +1,10 @@
+# Ignorar pastas de compilação e binários
+bin/
+obj/
+
+# Ignorar arquivos de projeto e solução (Use com cautela)
+*.csproj
+*.sln
+
+# Ignorar saves
 level.dat
