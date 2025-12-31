@@ -9,5 +9,5 @@ pub/
 
 # Ignorar saves
 level.dat
-.bat
+*.bat
 

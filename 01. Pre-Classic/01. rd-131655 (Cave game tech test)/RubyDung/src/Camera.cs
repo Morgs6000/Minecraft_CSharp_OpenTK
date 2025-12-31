@@ -87,7 +87,7 @@ public class Camera
         if (!cameraEnabled)
         {
             cameraDelayTimer -= deltaTime;
-            if (cameraDelayTimer <= 0.0f)
+            if (cameraDelayTimer <= 0.0f || mouseState.IsAnyButtonDown)
             {
                 cameraEnabled = true;
                 cameraDelayTimer = 0.0f;
