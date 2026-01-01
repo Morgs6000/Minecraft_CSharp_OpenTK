@@ -98,6 +98,13 @@ public class Highlight
                 z++;
             }
 
+            AABB blockAABB = new AABB(x, y, z, x + 1, y + 1, z + 1);
+
+            if (camera.cameraBox.Intersects(blockAABB))
+            {
+                return;
+            }
+
             SetBlock(x, y, z, drawGUI.paintTexture);
         }
     }

@@ -8,7 +8,7 @@ namespace Minecraft;
 public class Camera
 {
     private Level level;
-    public AABB cameraBox = null!;
+    private AABB cameraBox = null!;
 
     private Vector3 Position;
     private Vector3 Front;
